@@ -10,7 +10,7 @@ Dưới đây là danh sách các chuyên đề mình đã tổng hợp. Bạn c
 
 | Thứ tự | Tên chuyên đề                  | Test Online | Test Offline | Tải xuống / Liên hệ |
 |:------:|:--------------------------------|:-----------:|:------------:|:-------------------:|
-| 1      | Two Pointers                    | [Thi thử](#) | [Tải file](#) | [Liên hệ](mailto:ha.hoangthi@gmail.com) |
+| 1      | [Two Pointers](https://habelle.github.io/2025-04-26-two-pointers-ki-thuat-hai-con-tro/)                    | [Thi thử](#) | [Tải file](#) | [Liên hệ](mailto:ha.hoangthi@gmail.com) |
 | 2      | Binary Search                   | [Thi thử](#) | [Tải file](#) | [Liên hệ](mailto:ha.hoangthi@gmail.com) |
 | 3      | Dynamic Programming (DP cơ bản) | [Thi thử](#) | [Tải file](#) | [Liên hệ](mailto:ha.hoangthi@gmail.com) |
 | 4      | Graph Traversal (DFS/BFS)        | [Thi thử](#) | [Tải file](#) | [Liên hệ](mailto:ha.hoangthi@gmail.com) |
