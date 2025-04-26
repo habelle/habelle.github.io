@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chia sẻ tài liệu
-permalink: /share/
+permalink: /resources/
 ---
 
 # 📚 Chia sẻ tài liệu lập trình & thuật toán
