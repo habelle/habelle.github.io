@@ -6,6 +6,8 @@ tags: [Two Pointers]
 author: Hoàng Hà
 ---
 
+Two Pointers là một kỹ thuật lập trình cơ bản nhưng cực kỳ hiệu quả, thường được sử dụng để giải quyết các bài toán liên quan đến mảng hoặc chuỗi. Ý tưởng chính là sử dụng hai biến làm "con trỏ" để di chuyển trong cấu trúc dữ liệu, từ đó tối ưu hóa quá trình tìm kiếm hoặc kiểm tra điều kiện mà không cần duyệt tất cả các cặp phần tử. Kỹ thuật này đặc biệt hữu dụng khi dữ liệu đã được sắp xếp hoặc bài toán có yêu cầu tìm kiếm theo cặp, theo đoạn, giúp giảm độ phức tạp từ O(n²) xuống O(n) trong nhiều trường hợp.
+
 # ✌️ Giới thiệu chuyên đề Two Pointers (Hai con trỏ)
 
 ## 1. Tổng quan
