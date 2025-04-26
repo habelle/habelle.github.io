@@ -23,7 +23,7 @@ Vui lòng điền thông tin bên dưới. Chúng tôi sẽ liên hệ lại s�
   <textarea id="message" name="message" rows="5" required></textarea><br><br>
 
   <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_next" value="https://codenow.github.io/thank-you.html">
+  <input type="hidden" name="_next" value="https://habelle.github.io/thank-you.html">
 
   <button type="submit">Gửi tin nhắn</button>
 
