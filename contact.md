@@ -3,7 +3,7 @@ layout: default
 title: Liên hệ
 permalink: /contact/
 ---
-
+<center>
 # Liên hệ với chúng tôi
 
 Vui lòng điền thông tin bên dưới. Chúng tôi sẽ liên hệ lại sớm nhất!
@@ -28,3 +28,4 @@ Vui lòng điền thông tin bên dưới. Chúng tôi sẽ liên hệ lại s�
   <button type="submit">Gửi tin nhắn</button>
 
 </form>
+</center>
