@@ -1,16 +1,18 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Hoàng Hà (habelle)
+subtitle: Blogs cá nhân lưu trữ những bài viết trong hành trình tập viết lách
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Tôi là một giáo viên dạy lập trình tại một trường THPT dành cho học sinh năng khiếu ở thành phố Bắc Ninh.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Ở Codenow, tôi trực tiếp đồng hành với các học sinh từ cơ bản đến nâng cao thông qua các khóa học lập trình.
 
-What else do you need?
+Tại đây tôi chia sẻ các tài liệu dạy học, quan điểm dạy học và kiến thức từ cơ bản đến chuyên sâu về lập trình thi đấu (trong phạm vi kinh nghiệm của mình)
 
-### My story
+Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa trở nên đơn giản, thú vị và sống động giúp các em dần thấy hứng thú và đam mê với bộ môn này.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Trang của tôi có gì?**
+
+- Blogs cá nhân – [những chia sẻ, tâm sự về cuộc sống và công việc](https://habelle.github.io/blogs/)
+- Tài liệu – nơi chia sẻ các [tài liệu dạy học](https://habelle.github.io/resources/) lập trình của cá nhân tôi.
