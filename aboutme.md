@@ -16,3 +16,5 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
 
 - Blogs cá nhân – [những chia sẻ, tâm sự về cuộc sống và công việc](https://habelle.github.io/blogs/)
 - Tài liệu – nơi chia sẻ các [tài liệu dạy học](https://habelle.github.io/resources/) lập trình của cá nhân tôi.
+
+<center>![](https://habelle.github.io/assets/img/b7ff3b6a259b94c5cd8a.jpg)</center>
