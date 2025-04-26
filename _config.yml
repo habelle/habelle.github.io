@@ -20,9 +20,9 @@ author: Hoàng Hà
 ###############################################
 
 navbar-links:
-  Giới thiệu: "aboutme"
+  Giới thiệu: "https://codenow.github.io/aboutme/"
   Tài liệu: "https://beautifuljekyll.com"
-  Liên hệ: "https://deanattali.com"
+  Liên hệ: "https://codenow.github.io/contact/"
 
 ################
 # --- Logo --- #
