@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hoàng Hà (habelle)
+title: habelle
 subtitle: Blogs cá nhân lưu trữ những bài viết trong hành trình tập viết lách
 ---
 
