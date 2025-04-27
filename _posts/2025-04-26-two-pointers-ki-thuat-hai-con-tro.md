@@ -237,4 +237,4 @@ vector<int> twoSum(vector<int>& numbers, int target) {
 > 🎯 Ghi nhớ:  
 > **Kỹ thuật hai con trỏ đối đầu** rất mạnh khi dữ liệu **đã sắp xếp** và bài yêu cầu tìm **cặp thỏa mãn tổng / hiệu / tích**.
 
-** Tìm hiểu thêm về các chuyên đề ở [đây](https://habelle.github.io/resources/)
+** Tìm hiểu thêm về chuyên đề Hai con trỏ ở [đây](https://habelle.github.io/resources/)**
