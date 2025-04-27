@@ -4,6 +4,7 @@ title: Chuyên đề Quy hoạch động (Phần 6)
 subtitle: Bài tập luyện tập Quy hoạch động từ dễ tới khó
 tags: [dp]
 author: Hoàng Hà
+markdown: kramdown
 ---
 
 # Bài tập Quy hoạch động - Bài 26 đến 30
