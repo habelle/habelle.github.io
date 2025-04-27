@@ -6,6 +6,9 @@ tags: [Online Judge]
 author: Hoàng Hà
 ---
 
+LeetCode là một nền tảng luyện tập lập trình nổi tiếng, rất phù hợp cho học sinh rèn luyện tư duy thuật toán và kỹ năng giải quyết vấn đề. Trang web cung cấp hàng nghìn bài tập thuộc nhiều chủ đề khác nhau như cấu trúc dữ liệu, thuật toán, lập trình động, đồ thị... Các bài tập được phân loại theo mức độ từ dễ đến khó, giúp học sinh tiến bộ dần theo lộ trình. Ngoài ra, LeetCode còn có hệ thống thi đấu định kỳ, tạo cơ hội cọ xát và nâng cao kỹ năng lập trình thực chiến.
+
+
 # 📋 Đánh giá hệ thống bài tập trên LeetCode
 
 ## 1. Điểm mạnh
