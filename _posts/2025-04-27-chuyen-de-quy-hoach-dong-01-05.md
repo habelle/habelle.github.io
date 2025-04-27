@@ -1,10 +1,3 @@
----
-layout: post
-title: Chuyên đề Quy hoạch động (Phần 1)
-subtitle: Thành thạo thiết kế thuật toán bằng Quy hoạch động
-tags: [dp]
-author: Hoàng Hà
----
 
 # Bài tập Quy hoạch động - Bài 1 đến 5
 
