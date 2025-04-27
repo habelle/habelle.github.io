@@ -454,3 +454,5 @@ int main() {
 ---
 
 > 📚 Luyện tập đa dạng các dạng bài Two Pointers giúp học sinh thành thạo tư duy tối ưu hóa trên dãy số và đoạn con! 🚀
+
+**[Tải toàn bộ chuyên đề Hai con trở dạng .pdf](https://habelle.github.io/resources/2005-27-04-chuyen-de-hai-con-tro-two-pointers-full.pdf)**
