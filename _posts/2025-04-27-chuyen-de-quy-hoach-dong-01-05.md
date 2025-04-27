@@ -1,10 +1,3 @@
----
-layout: post
-title: Chuyên đề Quy hoạch động (Phần 1)
-subtitle: Bài tập luyện tập Quy hoạch động từ dễ tới khó
-tags: [dp, Quy hoạch động]
-author: Hoàng Hà
----
 
 # Bài tập Quy hoạch động - Bài 1 đến 5
 
