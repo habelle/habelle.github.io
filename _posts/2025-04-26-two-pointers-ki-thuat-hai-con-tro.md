@@ -1,201 +1,168 @@
 ---
 layout: post
-title: Giới thiệu chuyên đề Two Pointers
-subtitle: Làm quen kỹ thuật hai con trỏ - Xử lý bài toán hiệu quả hơn
+title: Chuyên đề Two Pointers
+subtitle: Kỹ thuật hai con trỏ trong lập trình thuật toán
 tags: [Two Pointers]
 author: Hoàng Hà
+
 ---
 
-Two Pointers là một kỹ thuật lập trình cơ bản nhưng cực kỳ hiệu quả, thường được sử dụng để giải quyết các bài toán liên quan đến mảng hoặc chuỗi. Ý tưởng chính là sử dụng hai biến làm "con trỏ" để di chuyển trong cấu trúc dữ liệu, từ đó tối ưu hóa quá trình tìm kiếm hoặc kiểm tra điều kiện mà không cần duyệt tất cả các cặp phần tử. Kỹ thuật này đặc biệt hữu dụng khi dữ liệu đã được sắp xếp hoặc bài toán có yêu cầu tìm kiếm theo cặp, theo đoạn, giúp giảm độ phức tạp từ O(n²) xuống O(n) trong nhiều trường hợp.
+# ✌️ Giới thiệu kỹ thuật Two Pointers (Hai con trỏ)
 
-# ✌️ Giới thiệu chuyên đề Two Pointers (Hai con trỏ)
+**Two Pointers** là kỹ thuật sử dụng hai biến (thường là `left` và `right`) để duyệt qua dữ liệu, cho phép giải quyết hiệu quả các bài toán tìm kiếm cặp phần tử, đoạn con hoặc nhóm phần tử thỏa mãn điều kiện nhất định.
 
-## 1. Tổng quan
+Khi áp dụng đúng, Two Pointers có thể tối ưu độ phức tạp từ `O(n^2)` xuống `O(n)` hoặc `O(n log n)`, đặc biệt trong các bài có mảng **đã sắp xếp** hoặc cần **xử lý đoạn liên tiếp**.
 
-**Two Pointers** là một trong những kỹ thuật thuật toán nền tảng nhất dành cho học sinh mới luyện lập trình thi đấu hoặc thi HSG kiểu USACO.
+---
 
-Nó cho phép tối ưu rất nhiều bài toán liên quan đến:
-- Các cặp phần tử (pair)
-- Các đoạn con (subarray)
-- Truy vấn trên mảng một cách tuyến tính
+# 🔥 Các biến thể phổ biến
 
-## 2. Khi nào nghĩ tới Two Pointers?
+|        Biến thể         | Mô tả                                                        |
+| :---------------------: | ------------------------------------------------------------ |
+| Two Pointers cùng chiều | `left` và `right` cùng tiến theo 1 hướng (Sliding Window)    |
+|  Two Pointers đối đầu   | `left` từ đầu, `right` từ cuối, tiến vào giữa                |
+|  One-fixed One-moving   | Một con trỏ cố định, con kia di chuyển để tìm điều kiện thỏa mãn |
 
-- Cần tìm **các cặp** thỏa mãn điều kiện tổng/hiệu/số lượng.
-- Xử lý **các đoạn con** có tính chất đặc biệt (ví dụ tổng ≤ K).
-- Dữ liệu **đã sắp xếp tăng dần** (ưu tiên áp dụng two pointers đối đầu).
-- Muốn tối ưu từ `O(n²)` xuống `O(n)` hoặc `O(n log n)`.
+---
 
-## 3. Các biến thể Two Pointers thường gặp
+# 🛠 Công thức khung chuẩn
 
-| Biến thể | Mô tả |
-|:--------:|------|
-| Two Pointers cùng chiều | left và right cùng tiến về phía trước, co giãn cửa sổ |
-| Two Pointers đối đầu | left từ đầu, right từ cuối tiến vào tìm điều kiện |
-| Một cố định – Một di động | Fix một con trỏ, tìm kiếm con còn lại phù hợp |
+## a) Two Pointers cùng chiều
 
-## 4. Độ phức tạp tiêu chuẩn
+```python
+left = 0
+for right in range(n):
+    # Cập nhật trạng thái
+    while (không thỏa điều kiện):
+        left += 1
+    # Xử lý đáp án tại đây
+```
 
-- Đa số bài sử dụng Two Pointers có độ phức tạp **O(n)** hoặc **O(n log n)**.
+## b) Two Pointers đối đầu
 
-## 5. Vai trò trong quá trình học giai đoạn cơ bản
+```python
+left = 0
+right = n - 1
+while left < right:
+    if (điều kiện đúng):
+        # Xử lý đáp án
+        left += 1
+    else:
+        right -= 1
+```
 
-- Là công cụ **giảm độ phức tạp bài toán** một cách tự nhiên.
-- Giúp học sinh làm quen với việc **suy nghĩ tối ưu hóa**, nhận diện tình huống bài toán.
-- Chuẩn bị tư duy nền cho các chuyên đề nâng cao hơn như Sliding Window, Prefix Sum nâng cao, Dynamic Programming.
+---
 
-> 📚 Hãy làm thật nhiều bài tập Two Pointers để thuần thục thói quen tối ưu hóa ngay từ giai đoạn cơ bản!
+# 📝 Danh sách luyện tập thêm cùng gợi ý
 
-# 🧩 Bài mẫu 1: Two Sum II – Input Array is Sorted
+|            Bài tập             | Link                                                         | Gợi ý áp dụng               |
+| :----------------------------: | ------------------------------------------------------------ | --------------------------- |
+|     Subarray Sum Equals K      | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) | Sliding Window              |
+| Longest Subarray with Sum ≤ K  | [CSES](https://cses.fi/problemset/task/2420)                 | Sliding Window              |
+|              3Sum              | [LeetCode](https://leetcode.com/problems/3sum/)              | Sắp xếp + Two Pointers      |
+| Count Number of Nice Subarrays | [LeetCode](https://leetcode.com/problems/count-number-of-nice-subarrays/) | Two Pointers co giãn cửa sổ |
+
+> 💡 Mẹo: Hãy đọc kỹ đề để nhận diện xem bài yêu cầu "cặp" hay "đoạn con", và dữ liệu có được sắp xếp hay không!
+
+---
+
+# 🚨 Các lỗi sai học sinh thường gặp
+
+- **Không thu hẹp cửa sổ đúng lúc**, dẫn tới bỏ sót đáp án.
+- **Nhầm điều kiện dừng** trong while khi sliding window.
+- **Sai chỉ số**: khi đề bài yêu cầu trả về chỉ số bắt đầu từ 1 thay vì 0.
+- **Quên xét trường hợp góc**: mảng rỗng, không có đáp án,...
+
+---
+
+# 🎯 Câu hỏi ôn tập nhanh
+
+- Khi nào nên áp dụng Two Pointers đối đầu?
+- Sliding Window là biến thể của Two Pointers như thế nào?
+- Làm sao để nhận biết bài cần tối ưu từ O(n²) xuống O(n)?
+
+---
+
+> 📚 Học kỹ thuật Two Pointers không chỉ để giải bài nhanh hơn, mà còn để phát triển tư duy tối ưu hóa bài toán ngay từ lúc đọc đề! 🚀
+
+# 📘 Bài mẫu 1: Two Sum II – Input Array is Sorted
 
 **Link bài gốc:** [LeetCode - Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ---
 
-## 1. Mô tả bài toán
+## 1. Đề bài (dịch tiếng Việt)
 
-Bạn được cho một **mảng các số nguyên đã được sắp xếp theo thứ tự tăng dần** và một **số nguyên mục tiêu** (`target`).
+Bạn được cho một **mảng các số nguyên đã sắp xếp theo thứ tự tăng dần** và một số nguyên `target`.
 
-Yêu cầu: **Tìm hai số** trong mảng **có tổng đúng bằng target** và trả về **chỉ số của chúng** (theo quy ước chỉ số **bắt đầu từ 1**).
+Yêu cầu: **Tìm hai số** trong mảng có **tổng đúng bằng target** và **trả về chỉ số** của chúng (lưu ý: chỉ số tính từ 1).
 
-Mỗi bài có đúng một cặp duy nhất thỏa mãn điều kiện.
-
-Bạn phải thiết kế một thuật toán có độ phức tạp **O(n)**.
+Giả sử rằng mỗi input có **chính xác một cặp** đáp án.
 
 ---
 
-## 2. Định dạng Input
+### Input
 
-- Một mảng số nguyên **`numbers`** đã **sắp xếp tăng dần** (có ít nhất hai phần tử).
-- Một số nguyên **`target`**.
+- `numbers` – Mảng số nguyên, đã được **sắp xếp tăng dần**.
+- `target` – Số nguyên mục tiêu.
 
-### Ràng buộc:
+### Output
+
+- Một mảng gồm hai số nguyên `[index1, index2]` (với `index1 < index2`), là chỉ số của hai phần tử thỏa mãn.
+
+---
+
+### Ràng buộc
 
 - `2 <= numbers.length <= 3 * 10^4`
 - `-1000 <= numbers[i] <= 1000`
 - `-10^9 <= target <= 10^9`
-- Có **chính xác một** cặp số thỏa mãn tổng bằng `target`.
+- Luôn có đúng một cặp số thỏa mãn yêu cầu.
 
 ---
 
-## 3. Định dạng Output
+### Ví dụ
 
-- Một mảng gồm **hai số nguyên**: `[index1, index2]`, với `index1 < index2`.
-- Các chỉ số bắt đầu từ **1** (không phải từ 0).
+#### Ví dụ 1:
 
----
+Input: `numbers = [2,7,11,15]`, `target = 9`  
+Output: `[1,2]`  
+Giải thích: 2 + 7 = 9.
 
-## 4. Ví dụ
+#### Ví dụ 2:
 
-### Ví dụ 1:
-
-**Input:**
-
-```
-numbers = [2,7,11,15]
-target = 9
-```
-
-**Output:**
-
-```
-[1,2]
-```
-
-**Giải thích:**  
-Số `2` (ở vị trí 1) + số `7` (ở vị trí 2) = `9`.
+Input: `numbers = [2,3,4]`, `target = 6`  
+Output: `[1,3]`  
+Giải thích: 2 + 4 = 6.
 
 ---
 
-### Ví dụ 2:
+## 2. Gợi ý tư duy
 
-**Input:**
-
-```
-numbers = [2,3,4]
-target = 6
-```
-
-**Output:**
-
-```
-[1,3]
-```
-
-**Giải thích:**  
-Số `2` (ở vị trí 1) + số `4` (ở vị trí 3) = `6`.
-
----
-
-### Ví dụ 3:
-
-**Input:**
-
-```
-numbers = [-1,0]
-target = -1
-```
-
-**Output:**
-
-```
-[1,2]
-```
-
-**Giải thích:**  
-Số `-1` (ở vị trí 1) + số `0` (ở vị trí 2) = `-1`.
-
----
-
-# 🔥 Phân tích tư duy: Brute-force vs Two Pointers
-
-## Cách làm Brute-force (Duyệt tổ hợp tất cả cặp)
+### a) Cách Brute-force
 
 - Duyệt tất cả các cặp `(i, j)` với `i < j`.
-- Kiểm tra nếu `numbers[i] + numbers[j] == target` thì trả kết quả.
+- Kiểm tra nếu `numbers[i] + numbers[j] == target`.
+- Trả kết quả khi tìm được.
 
-### Code mẫu Brute-force
-
-```python
-def twoSum_bruteforce(numbers, target):
-    n = len(numbers)
-    for i in range(n):
-        for j in range(i+1, n):
-            if numbers[i] + numbers[j] == target:
-                return [i+1, j+1]
-```
-
-### Độ phức tạp
-
-- Thời gian: `O(n^2)`
-- Không gian: `O(1)`
-
-**Nhận xét:** Với `n = 30000`, tổng số phép so sánh gần 450 triệu → không khả thi.
+⏳ Độ phức tạp thời gian: **O(n²)** — Không hiệu quả với mảng lớn.
 
 ---
 
-## Cách làm tối ưu: Two Pointers
+### b) Cách tối ưu bằng Two Pointers
 
-- Vì mảng đã **sắp xếp tăng dần**, áp dụng kỹ thuật **hai con trỏ đối đầu**:
-  - `left` ở đầu, `right` ở cuối.
-  - Nếu tổng nhỏ hơn target → `left += 1`
-  - Nếu tổng lớn hơn target → `right -= 1`
-  - Nếu tổng đúng target → trả kết quả.
+- Do mảng **đã sắp xếp**, ta áp dụng **hai con trỏ đối đầu**:
+  - `left` = 0, `right` = n-1
+- Tại mỗi bước:
+  - Nếu tổng nhỏ hơn `target`: cần tổng lớn hơn → `left += 1`
+  - Nếu tổng lớn hơn `target`: cần tổng nhỏ hơn → `right -= 1`
+  - Nếu tổng đúng bằng `target`: trả chỉ số `[left+1, right+1]`
 
-### Code mẫu Two Pointers
+⏱ Độ phức tạp thời gian: **O(n)** — Rất tối ưu.
 
-```python
-def twoSum(numbers, target):
-    left, right = 0, len(numbers) - 1
-    while left < right:
-        current_sum = numbers[left] + numbers[right]
-        if current_sum == target:
-            return [left + 1, right + 1]
-        elif current_sum < target:
-            left += 1
-        else:
-            right -= 1
-```
+---
+
+## 3. Code mẫu C++
 
 ```cpp
 #include <vector>
@@ -205,36 +172,285 @@ vector<int> twoSum(vector<int>& numbers, int target) {
     int left = 0, right = numbers.size() - 1;
     while (left < right) {
         int current_sum = numbers[left] + numbers[right];
-        if (current_sum == target)
-            return {left + 1, right + 1};
-        else if (current_sum < target)
+        if (current_sum == target) {
+            return {left + 1, right + 1}; // chỉ số bắt đầu từ 1
+        } else if (current_sum < target) {
             ++left;
-        else
+        } else {
             --right;
+        }
     }
-    return {}; // luôn có cặp thỏa mãn
+    return {}; // không cần thiết vì luôn tồn tại đáp án
 }
 ```
 
-### Độ phức tạp
+---
 
-- Thời gian: `O(n)`
-- Không gian: `O(1)`
+> 📚 Ghi nhớ: Khi dữ liệu **đã sắp xếp**, luôn kiểm tra xem có thể áp dụng **hai con trỏ đối đầu** để tối ưu hoá bài toán hay không!
 
-**Nhận xét:** Mỗi bước di chuyển chỉ cần kiểm tra 1 lần → tối đa `n` bước.
+# 📘 Bài mẫu 2: Subarray Sum
+
+**Link bài gốc:** [CSES - Subarray Sum](https://cses.fi/problemset/task/1660)
 
 ---
 
-# 🔍 Bảng so sánh nhanh
+## 1. Đề bài (dịch tiếng Việt)
 
-| Phương pháp  | Thời gian | Không gian | Ghi chú                        |
-| ------------ | --------- | ---------- | ------------------------------ |
-| Brute-force  | O(n²)     | O(1)       | Không tận dụng dữ liệu sắp xếp |
-| Two Pointers | O(n)      | O(1)       | Tận dụng thứ tự tăng dần       |
+Bạn được cho một mảng số nguyên dương gồm `n` phần tử và một số nguyên `x`.
+
+Yêu cầu: Đếm số lượng **đoạn con liên tiếp** trong mảng có tổng bằng `x`.
 
 ---
 
-> 🎯 Ghi nhớ:  
-> **Kỹ thuật hai con trỏ đối đầu** rất mạnh khi dữ liệu **đã sắp xếp** và bài yêu cầu tìm **cặp thỏa mãn tổng / hiệu / tích**.
+### Input
 
-** Tìm hiểu thêm về chuyên đề Hai con trỏ ở [đây](https://habelle.github.io/resources/)**
+- Dòng đầu tiên: hai số nguyên `n` và `x` (1 ≤ n ≤ 2⋅10⁵, 1 ≤ x ≤ 10⁹).
+- Dòng thứ hai: `n` số nguyên dương (mỗi số không vượt quá 10⁹).
+
+### Output
+
+- Một số nguyên: số lượng đoạn con có tổng đúng bằng `x`.
+
+---
+
+### Ví dụ
+
+#### Input:
+
+```
+5 7
+2 4 1 2 7
+```
+
+#### Output:
+
+```
+2
+```
+
+**Giải thích:** Hai đoạn `[2,4,1]` và `[7]` có tổng bằng 7.
+
+---
+
+## 2. Gợi ý tư duy
+
+### a) Cách Brute-force
+
+- Duyệt tất cả các đoạn `[i, j]`, tính tổng các phần tử.
+- Nếu tổng đúng bằng `x` thì tăng kết quả.
+
+⏳ Độ phức tạp: **O(n²)** — không khả thi với `n` lớn.
+
+### b) Cách tối ưu bằng Two Pointers
+
+- Cửa sổ trượt `[left, right]`:
+  - Nếu tổng nhỏ hơn `x`, mở rộng `right`.
+  - Nếu tổng lớn hơn `x`, co `left`.
+  - Nếu tổng đúng bằng `x`, tăng kết quả.
+
+⏱ Độ phức tạp: **O(n)**
+
+---
+
+## 3. Code mẫu C++
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    long long x;
+    cin >> n >> x;
+    vector<long long> a(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> a[i];
+    }
+    int left = 0;
+    long long sum = 0, result = 0;
+    for (int right = 0; right < n; ++right) {
+        sum += a[right];
+        while (sum > x) {
+            sum -= a[left++];
+        }
+        if (sum == x) result++;
+    }
+    cout << result << endl;
+}
+```
+
+---
+
+> 📚 Kỹ thuật **sliding window** thực chất là một biến thể của **two pointers cùng chiều**, rất hiệu quả khi các phần tử đều không âm!
+
+# 📘 Bài mẫu 3: Longest Subarray with Sum ≤ K
+
+**Link bài gốc:** [CSES - Subarray Divisibility (biến thể tương tự)](https://cses.fi/problemset/task/1662)
+
+*(Chú thích: Bài Subarray Divisibility của CSES tương tự bài tìm đoạn con thỏa mãn điều kiện tổng với ràng buộc.)*
+
+---
+
+## 1. Đề bài (dịch tiếng Việt)
+
+Cho một mảng gồm `n` số nguyên không âm và một số nguyên `k`.
+
+Yêu cầu: Tìm độ dài lớn nhất của một **đoạn con liên tiếp** sao cho **tổng các phần tử trong đoạn không vượt quá `k`**.
+
+---
+
+### Input
+
+- Dòng đầu tiên: hai số nguyên `n` và `k` (1 ≤ n ≤ 10⁵, 1 ≤ k ≤ 10⁹).
+- Dòng thứ hai: `n` số nguyên (mỗi số không âm và ≤ 10⁶).
+
+### Output
+
+- Một số nguyên: độ dài lớn nhất của đoạn thỏa mãn điều kiện.
+
+---
+
+### Ví dụ
+
+#### Input:
+
+```
+5 7
+2 1 5 1 3
+```
+
+#### Output:
+
+```
+3
+```
+
+**Giải thích:** Đoạn `[2,1,5]` không thỏa mãn vì tổng > 7, nhưng `[5,1,3]` tổng = 9 không được. Đoạn `[2,1,5]` hoặc `[1,5,1]` tổng 8 hoặc 7 đều chấp nhận, chọn dài nhất là 3.
+
+---
+
+## 2. Gợi ý tư duy
+
+### a) Cách Brute-force
+
+- Duyệt tất cả các đoạn `[i, j]`, tính tổng từng đoạn.
+- Nếu tổng ≤ `k`, cập nhật độ dài lớn nhất.
+
+⏳ Độ phức tạp: **O(n²)** — không khả thi với `n` lớn.
+
+### b) Cách tối ưu bằng Two Pointers (Sliding Window)
+
+- Giữ cửa sổ `[left, right]` sao cho tổng trong cửa sổ ≤ `k`.
+- Khi tổng vượt quá `k`, co `left`.
+- Cập nhật kết quả trong quá trình.
+
+⏱ Độ phức tạp: **O(n)**
+
+---
+
+## 3. Code mẫu C++
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    long long k;
+    cin >> n >> k;
+    vector<int> a(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> a[i];
+    }
+    int left = 0, max_len = 0;
+    long long sum = 0;
+    for (int right = 0; right < n; ++right) {
+        sum += a[right];
+        while (sum > k) {
+            sum -= a[left++];
+        }
+        max_len = max(max_len, right - left + 1);
+    }
+    cout << max_len << endl;
+}
+```
+
+---
+
+> 📚 Sliding Window giúp ta luôn giữ một đoạn thỏa mãn điều kiện tổng liên tiếp mà không phải tính tổng lại từ đầu!
+
+## 📋 Danh sách bài tập luyện tập thêm
+
+### 1. [Two Sum II - Input Array Is Sorted (LeetCode)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+
+- **Mô tả:** Tìm hai phần tử trong mảng đã sắp xếp sao cho tổng đúng bằng `target`.
+- **Gợi ý:** Two pointers đối đầu (`left`, `right`) di chuyển tùy theo tổng.
+
+---
+
+### 2. [3Sum (LeetCode)](https://leetcode.com/problems/3sum/)
+
+- **Mô tả:** Tìm tất cả bộ ba số có tổng bằng 0, không trùng lặp.
+- **Gợi ý:** Sắp xếp mảng, fix một phần tử, two pointers tìm bộ đôi còn lại.
+
+---
+
+### 3. [Container With Most Water (LeetCode)](https://leetcode.com/problems/container-with-most-water/)
+
+- **Mô tả:** Tìm hai cột nước tạo container lớn nhất.
+- **Gợi ý:** Two pointers đối đầu, tiến con trỏ thấp hơn.
+
+---
+
+### 4. [Longest Subarray with Sum ≤ K (CSES)](https://cses.fi/problemset/task/2420)
+
+- **Mô tả:** Đoạn con dài nhất có tổng ≤ `k`.
+- **Gợi ý:** Sliding Window, co giãn cửa sổ.
+
+---
+
+### 5. [Subarray Sum (CSES)](https://cses.fi/problemset/task/1660)
+
+- **Mô tả:** Đếm số đoạn con tổng đúng bằng `x`.
+- **Gợi ý:** Sliding Window khi phần tử không âm.
+
+---
+
+### 6. [Minimum Size Subarray Sum (LeetCode)](https://leetcode.com/problems/minimum-size-subarray-sum/)
+
+- **Mô tả:** Tìm đoạn con ngắn nhất có tổng ≥ `target`.
+- **Gợi ý:** Co giãn cửa sổ khi đủ điều kiện.
+
+---
+
+### 7. [Count Number of Nice Subarrays (LeetCode)](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+
+- **Mô tả:** Đếm đoạn con chứa đúng `k` số lẻ.
+- **Gợi ý:** Two pointers + đếm số lượng đoạn hợp lệ.
+
+---
+
+### 8. [Maximum Erasure Value (LeetCode)](https://leetcode.com/problems/maximum-erasure-value/)
+
+- **Mô tả:** Tổng giá trị lớn nhất của đoạn không trùng phần tử.
+- **Gợi ý:** Two pointers + set theo dõi phần tử.
+
+---
+
+### 9. [Boats to Save People (LeetCode)](https://leetcode.com/problems/boats-to-save-people/)
+
+- **Mô tả:** Tối thiểu số thuyền cần dùng để chở hết người.
+- **Gợi ý:** Sắp xếp + two pointers ghép người nhẹ và nặng.
+
+---
+
+### 10. [Two Sum Less Than K (LeetCode)](https://leetcode.com/problems/two-sum-less-than-k/)
+
+- **Mô tả:** Tìm tổng hai số lớn nhất nhỏ hơn `k`.
+- **Gợi ý:** Two pointers đối đầu chọn cặp tối ưu.
+
+---
+
+> 📚 Luyện tập đa dạng các dạng bài Two Pointers giúp học sinh thành thạo tư duy tối ưu hóa trên dãy số và đoạn con! 🚀
