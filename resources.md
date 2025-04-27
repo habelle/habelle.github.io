@@ -9,7 +9,7 @@ permalink: /resources/
 Dưới đây là danh sách các chuyên đề mình đã tổng hợp. Bạn có thể thi online, tải file offline hoặc liên hệ mình để nhận thêm tài liệu chi tiết.
 
 | Thứ tự | Tên chuyên đề                  | Test Online | Test Offline | Tải xuống / Liên hệ | Bài giảng |
-|:------:|:--------------------------------|:-----------:|:------------:|:-------------------:|
+|:------:|:--------------------------------|:-----------:|:------------:|:-------------------:|:-------------------:|
 | 1      | [Two Pointers](https://habelle.github.io/2025-04-26-two-pointers-ki-thuat-hai-con-tro/)                    | ✅ | ❌ | [Tải xuống](https://habelle.github.io/resources/2005-27-04-chuyen-de-hai-con-tro-two-pointers-full.pdf) | [Xem video](#) |
 | 2      | Binary Search                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Xem video](#) |
 | 3      | Hashmap                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Xem video](#) |
