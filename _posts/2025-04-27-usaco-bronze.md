@@ -4,6 +4,7 @@ title: "Giới thiệu nền tảng USACO và cách luyện tập hiệu quả c
 subtitle: "Chi tiết lộ trình học và luyện thi USACO Bronze cho học sinh mới bắt đầu"
 tags: [Online Judge]
 author: Hoàng Hà
+image: /assets/img/thumb.png
 ---
 
 # Giới thiệu về USACO Bronze
