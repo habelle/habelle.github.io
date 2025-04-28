@@ -156,11 +156,12 @@ public:
     }
 };
 ```
+
 ## Series 30 bài tập Quy hoạch động cơ bản - DP cơ bản
-- [Mức dễ: Bài 01-05](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-01-05/)
-- [Mức dễ: Bài 06-10](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-06-10/)
-- [Mức dễ: Bài 11-15](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-11-15/)
-- [Mức trung bình: Bài 16-20](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-16-20/)
-- [Mức trung bình: Bài 21-25](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-21-25/)
-- [Mức trung bình: Bài 26-30](https://habelle.github.io/2025-04-27-chuyen-de-quy-hoach-dong-dp-26-30/)
+- [Mức dễ: Bài 01-05](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p1/)
+- [Mức dễ: Bài 06-10](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p2/)
+- [Mức dễ: Bài 11-15](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p3/)
+- [Mức trung bình: Bài 16-20](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p4/)
+- [Mức trung bình: Bài 21-25](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p5/)
+- [Mức trung bình: Bài 26-30](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p6/)
 
