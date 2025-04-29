@@ -2,7 +2,7 @@
 layout: post
 title: "Chuyên đề: Kỹ thuật duyệt BFS trên mảng hai chiều (Loang theo từng lớp)"
 subtitle: "Ứng dụng giải các bài toán lan truyền và tìm đường ngắn nhất trên ma trận"
-tags: [BFS, 2D]
+tags: [BFS]
 author: Hoàng Hà
 ---
 
@@ -127,7 +127,3 @@ Kỹ thuật BFS 2D cực kỳ mạnh mẽ và thường xuất hiện trong cá
 - Đếm số bước hoặc tính thời gian.
 
 So với DFS, BFS giúp **tìm lời giải nhanh nhất về mặt bước đi (độ sâu nhỏ nhất)** và có tính ứng dụng rất cao trong thực tế.
-
-Trong giảng dạy, bạn có thể sử dụng kỹ thuật **mô phỏng từng phút**, **vẽ hàng đợi BFS từng vòng** để học sinh dễ hình dung luồng lan truyền.
-
-Chúc bạn và học sinh của mình luyện tập BFS thật hiệu quả! 🚀
