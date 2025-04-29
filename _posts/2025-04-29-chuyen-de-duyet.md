@@ -4,6 +4,7 @@ title: "Chuyên đề: Duyệt toàn bộ các trường hợp trong lập trìn
 subtitle: "Kỹ thuật duyệt tuần tự, duyệt tổ hợp, hoán vị, tập con từ cơ bản đến nâng cao"
 tags: [Duyệt]
 author: Hoàng Hà
+use_mathjax: true
 ---
 
 # Giới thiệu
