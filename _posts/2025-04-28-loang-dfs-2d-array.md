@@ -2,7 +2,7 @@
 layout: post
 title: "Chuyên đề: Kỹ thuật duyệt DFS trên mảng hai chiều (Loang trên ma trận)"
 subtitle: "Tìm hiểu mô hình loang cơ bản bằng DFS và bài toán mẫu ứng dụng"
-tags: [Online Judge]
+tags: [DFS]
 author: Hoàng Hà
 ---
 
