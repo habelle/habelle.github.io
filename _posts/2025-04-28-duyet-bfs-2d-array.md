@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Chuyên đề: Kỹ thuật duyệt BFS trên mảng hai chiều (Loang theo từng lớp)"
-subtitle: "Ứng dụng giải các bài toán lan truyền và tìm đường ngắn nhất trên ma trận"
+title: Chuyên đề: Kỹ thuật duyệt BFS trên mảng hai chiều (Loang theo từng lớp)
+subtitle: Ứng dụng giải các bài toán lan truyền và tìm đường ngắn nhất trên ma trận
 tags: [BFS]
 author: Hoàng Hà
 ---
@@ -106,6 +106,18 @@ int orangesRotting(vector<vector<int>>& grid) {
     return (fresh == 0) ? minutes : -1;
 }
 ```
+
+## Các bài tương tự để luyện tập:
+
+- [Shortest Path in Binary Matrix (LeetCode 1091)](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [Walls and Gates (LeetCode 286)](https://leetcode.com/problems/walls-and-gates/)
+- [01 Matrix (LeetCode 542)](https://leetcode.com/problems/01-matrix/)
+- [Zombie in Matrix (LintCode 598)](https://www.lintcode.com/problem/598/)
+- [Cut Off Trees for Golf Event (LeetCode 675)](https://leetcode.com/problems/cut-off-trees-for-golf-event/)
+- [Open the Lock (LeetCode 752)](https://leetcode.com/problems/open-the-lock/)
+- [Knight Shortest Path (LintCode 611)](https://www.lintcode.com/problem/611/)
+- [Escape from the Grid (Codeforces 1705D)](https://codeforces.com/problemset/problem/1705/D)
+- [Swim in Rising Water (LeetCode 778)](https://leetcode.com/problems/swim-in-rising-water/)
 
 # Kết luận
 
