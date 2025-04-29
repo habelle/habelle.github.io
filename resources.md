@@ -16,8 +16,10 @@ Dưới đây là danh sách các chuyên đề mình đã tổng hợp. Bạn c
 | 4      | [Mảng cộng dồn prefix-sum](https://habelle.github.io/2025-04-27-chuyen-de-mang-cong-don-prefix-sum/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 | 5      | [Loang DFS trên mảng 2D](https://habelle.github.io/2025-04-28-loang-dfs-2d-array/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 | 6      | Loang BFS trên mảng 2D                   | ✅ | ✅ | [Tải xuống](https://habelle.github.io/tailieu/2025-04-28-duyet-bfs-tren-mang-2d.pdf) | [Khóa học mini](#) |
-| 7      | Quy hoạch động cơ bản [P1](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p1/),[P2](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p2/),[P3](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p3/),[P4](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p4/),[P5](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p5/) | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
-| 8      | Graph Traversal (DFS/BFS)        | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
+| 7      | [Phương pháp duyệt toàn bộ](https://habelle.github.io/2025-04-29-chuyen-de-duyet/)                  | ✅ | ✅ | [Tải xuống](#) | [Khóa học mini](#) |
+
+| 8      | Quy hoạch động cơ bản [P1](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p1/),[P2](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p2/),[P3](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p3/),[P4](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p4/),[P5](https://habelle.github.io/2025-04-27-chuyen-de-qhd-p5/) | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
+| 9      | Graph Traversal (DFS/BFS)        | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 
 
 
