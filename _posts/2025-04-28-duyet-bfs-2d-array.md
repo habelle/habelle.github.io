@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Chuyên đề: Kỹ thuật duyệt BFS trên mảng hai chiều (Loang theo từng lớp)
-subtitle: Ứng dụng giải các bài toán lan truyền và tìm đường ngắn nhất trên ma trận
+title: "Chuyên đề Kỹ thuật duyệt BFS trên mảng hai chiều - Loang theo từng lớp"
+subtitle: "Ứng dụng giải các bài toán lan truyền và tìm đường ngắn nhất trên ma trận"
 tags: [BFS]
 author: Hoàng Hà
 ---
