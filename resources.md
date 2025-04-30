@@ -23,4 +23,6 @@ Dưới đây là danh sách các chuyên đề mình đã tổng hợp. Bạn c
 
 
 
-> 📩 Nếu bạn cần tài liệu bổ sung hoặc muốn nhận thêm bộ đề luyện tập nâng cao, đừng ngần ngại [liên hệ với mình qua email](mailto:ha.hoangthi@gmail.com)!
+
+
+> 📩 Nếu bạn cần tài liệu bổ sung (chi tiết hơn về từng bài) hoặc muốn nhận thêm bộ đề luyện tập nâng cao, đừng ngần ngại [liên hệ với mình qua email](mailto:ha.hoangthi@gmail.com)!
