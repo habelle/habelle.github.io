@@ -1,5 +1,5 @@
 ---
-layopost
+layout: post
 title: "Chuyên đề Tối ưu bằng Prefix Sum"
 subtitle: "Định hướng dạy học nội dung tối ưu thuật toán bằng prefix-sum"
 tags: [Phương pháp dạy học, Prefix Sum]
