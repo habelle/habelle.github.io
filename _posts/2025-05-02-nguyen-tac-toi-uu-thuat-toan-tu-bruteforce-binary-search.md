@@ -1133,4 +1133,6 @@ Các bài tập trong chuyên đề này bao phủ đa dạng các kiểu ứng 
 
 Giáo viên có thể sử dụng tài liệu này để tổ chức buổi luyện tập theo từng nhóm bài, hướng dẫn học sinh tư duy từ brute-force đến tối ưu, và khuyến khích học sinh tự viết code, tự kiểm tra test và phân tích độ phức tạp. Đây là một trong những bước quan trọng để xây dựng tư duy giải quyết vấn đề và sự trưởng thành trong hành trình học thuật của mỗi học sinh.
 
-## Nếu bạn cần test để phục vụ mục đích dạy học hãy liên hệ với tôi [mailto: hahoangthi@gmail.com]
+**Nếu bạn cần test để phục vụ mục đích dạy học hãy liên hệ với tôi [mailto: hahoangthi@gmail.com]**
+
+
