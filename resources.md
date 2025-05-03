@@ -4,9 +4,30 @@ title: Chia sẻ tài liệu
 permalink: /resources/
 ---
 
-# 📚 Chia sẻ tài liệu lập trình & thuật toán
+## Chia sẻ tài liệu lập trình & thuật toán
 
-Dưới đây là danh sách các chuyên đề mình đã tổng hợp. Bạn có thể thi online, tải file offline hoặc liên hệ mình để nhận thêm tài liệu chi tiết.
+Tôi là giáo viên dạy lớp chuyên Tin, và toàn bộ tài liệu chia sẻ tại đây đều được biên soạn dựa trên quá trình giảng dạy thực tế cho nhiều thế hệ học sinh chuyên Tin học. Các chuyên đề này không chỉ nhằm luyện kỹ thuật giải bài, mà còn chú trọng đến tư duy sư phạm, từ cách đặt vấn đề, giới thiệu mô hình thuật toán cho tới cách tổ chức bài tập ở các mức độ khác nhau phù hợp với năng lực học sinh.
+
+Tôi biên tập các tài liệu này với mong muốn hỗ trợ các giáo viên Tin học trong công tác giảng dạy, đồng thời cung cấp nguồn tài liệu chất lượng để các học sinh có khả năng tự học cũng có thể tiếp cận dễ dàng.
+
+Trong từng chuyên đề, tôi đều để tâm:
+
+- Cách giới thiệu bài toán và mô hình tư duy giải quyết;
+
+- Việc lựa chọn bài tập theo mức tiếp cận tăng dần;
+
+- Các bài luyện thêm cho học sinh tự học;
+
+- Phân tích độ phức tạp, mô hình tối ưu, code mẫu rõ ràng;
+
+- Và đặc biệt, mỗi tài liệu đều có hệ thống test mẫu để luyện offline hoặc tích hợp vào hệ thống chấm tự động nếu cần.
+
+## Dưới đây là danh sách các chuyên đề đã hoàn thiện. Bạn có thể:
+
+- Làm bài online (qua link LeetCode, AtCoder, CSES,...),
+
+- Hoặc nếu cần các tài liệu chi tiết hơn, bạn có thể liên hệ trực tiếp với tôi để nhận thêm với mức chi phí hỗ trợ rất nhỏ cho mỗi chuyên đề – phù hợp cho giáo viên và học sinh tự học nghiêm túc.
+- 
 
 | Thứ tự | Tên chuyên đề                  | Test Online | Test Offline | Tải xuống / Liên hệ | Bài giảng |
 |:------:|:--------------------------------|:-----------:|:------------:|:-------------------:|:-------------------:|
