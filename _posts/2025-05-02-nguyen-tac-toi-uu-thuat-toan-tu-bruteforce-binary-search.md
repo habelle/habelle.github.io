@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chuyên đề Tìm kiếm nhị phân: 10 bài có phân tích thuật toán"
+title: "Chuyên đề Tìm kiếm nhị phân - 10 bài tập điển hình có phân tích thuật toán"
 subtitle: "Cách áp dụng kĩ thuật tối ưu từ duyệt -> Tìm kiếm nhị phân"
 tags: [Phương pháp dạy học, Binary Search]
 author: Hoàng Hà
