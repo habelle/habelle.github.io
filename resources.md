@@ -13,7 +13,7 @@ Bạn có thể sử dụng để dạy học hoặc tự học.
 |:------:|:--------------------------------|:-----------:|:------------:|:-------------------:|:-------------------:|
 | 1      | [Two Pointers](https://habelle.github.io/2025-04-26-two-pointers-ki-thuat-hai-con-tro/)                    | ✅ | ❌ | [Tải xuống](https://habelle.github.io/resources/2005-27-04-chuyen-de-hai-con-tro-two-pointers-full.pdf) | [Khóa học mini](#) |
 | 2      | [Binary Search](https://habelle.github.io/2025-04-27-chuyen-de-tim-kiem-nhi-phan-binary_search/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
-| 3      | [Hashmap](https://habelle.github.io/2025-04-27-chuyen-de-ctdl-hashmap-va-bai-tap/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
+| 3      | [Hashmap](https://habelle.github.io/2025-04-27-chuyen-de-ctdl-hashmap-va-bai-tap/)                   | ✅ | ✅ | [Tải test Themis](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 | 4      | [Mảng cộng dồn prefix-sum](https://habelle.github.io/2025-04-27-chuyen-de-mang-cong-don-prefix-sum/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 | 5      | [Loang DFS trên mảng 2D](https://habelle.github.io/2025-04-28-loang-dfs-2d-array/)                   | ✅ | ✅ | [Liên hệ](mailto:ha.hoangthi@gmail.com) | [Khóa học mini](#) |
 | 6      | Loang BFS trên mảng 2D                   | ✅ | ✅ | [Tải xuống](https://habelle.github.io/tailieu/2025-04-28-duyet-bfs-tren-mang-2d.pdf) | [Khóa học mini](#) |
