@@ -15,5 +15,6 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
 **Trang của tôi có gì?**
 
 - Blogs cá nhân – [những chia sẻ, tâm sự về cuộc sống và công việc](https://habelle.github.io/blogs/)
+- Chia sẻ về chuyên môn dạy học lập trình
 - Tài liệu – nơi chia sẻ các [tài liệu dạy học](https://habelle.github.io/resources/) lập trình của cá nhân tôi.
 
