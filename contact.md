@@ -4,9 +4,9 @@ title: Liên hệ
 permalink: /contact/
 ---
 
-# Liên hệ với chúng tôi
+# Liên hệ với tôi
 
-Vui lòng điền thông tin bên dưới. Chúng tôi sẽ liên hệ lại sớm nhất!
+Vui lòng điền thông tin bên dưới. Tôi sẽ liên hệ lại sớm nhất!
 
 <form action="https://formsubmit.co/ha.hoangthi@gmail.com" method="POST">
 
