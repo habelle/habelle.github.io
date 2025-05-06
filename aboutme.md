@@ -21,5 +21,6 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
   - Quan điểm về phát triển tư duy tối ưu trong quá trình học nâng cao
   - Hệ thống hỗ trợ chấm tự động online, offline
   - Hệ thống đề luyện từng giai đoạn
+  - Dạy học trong thời đại AI có gì khác so với truyền thống? Khó khăn, thách thức?
 - Tài liệu – nơi chia sẻ các [tài liệu dạy học](https://habelle.github.io/resources/) lập trình của cá nhân tôi.
 
