@@ -129,3 +129,5 @@ Hãy luyện tập thêm với các bài tương tự như:
 - [Closed Island (LeetCode 1254)](https://leetcode.com/problems/closed-island/)
 
 Chúc bạn học tập vui vẻ và thành công!
+
+**Nếu bạn muốn có được bộ bài tập chuẩn, có hướng dẫn thuật toán, code mẫu, bộ test offline và video hướng dẫn mô hình này của tôi xin vui lòng liên hệ [tại đây](https://habelle.github.io/contact/)**
