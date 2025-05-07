@@ -70,3 +70,5 @@ Qua đó:
 Dạy học lập trình hiệu quả không nằm ở việc **giảng bao nhiêu**, mà ở việc **giúp học sinh trải qua bao nhiêu khoảnh khắc tự mình nhận ra vấn đề**.
 
 > Hãy giảng khi học sinh đã cố gắng đủ – và chỉ gợi mở khi các em cần điểm tựa để bước tiếp. Đó là lúc tư duy sâu thực sự hình thành.
+
+**Trong các tài liệu dạy học của mình, đặc biệt ở các đề luyện hoặc chuyên đề, với mỗi bài toán tôi thường chuẩn bị sẵn nhiều mức gợi ý thuật toán để có thể hỗ trợ học sinh ở nhiều mức khác nhau. Chính nhờ điều này, tôi có khả năng cá nhân hóa việc học của học sinh tốt hơn là một chỉ dẫn chung chung cho cả lớp hay cả nhóm. Nếu bạn cần liên hệ tham khảo tài liệu của tôi, hãy liên hệ với tôi nhé**
