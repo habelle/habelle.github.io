@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dạy lập trình cho học sinh: Giới hạn nào cần giữ, tự do nào nên trao?
+title: "Dạy lập trình cho học sinh: Giới hạn nào cần giữ, tự do nào nên trao?"
 subtitle: Cân bằng giữa kiểm soát và sáng tạo trong dạy học lập trình hiện đại
 tags: [Dạy học thời AI]
 author: Hoàng Hà
