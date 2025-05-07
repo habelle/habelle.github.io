@@ -66,10 +66,10 @@ Tôi cũng hướng dẫn học sinh sử dụng AI để học – nhưng **có
 Khi tổ chức dạy học, cần kết hợp tổ chức các hoạt động học **không mạng internet, không trợ giúp** kết hợp với các hoạt động **được sử dụng mạng để tìm tòi, học hỏi** sao cho phù hợp. Vừa để phát huy khả năng tư duy, giải quyết vấn đề của học sinh, vừa có không gian cho các em tự mày mò, tìm hiểu thêm.
 
 Ví dụ về một buổi luyện tập:
-- Thời gian: 150 phút/1 đề
-- Giai đoạn 1 - 90 phút đầu tiên: **tự làm không có trợ giúp**, ngắt mạng, không gợi ý, làm bài độc lập. Chấm bằng phần mềm Themis với bộ test được chuẩn bị trước.
-- Giai đoạn 2: 30 đến 45 phút tiếp theo **tự tìm hiểu và fix lỗi hoặc cải tiến**, hs có thể dùng mạng internet, AI hoặc hướng dẫn giải được cung cấp từ giáo viên.
-- Giai đoạn 3: thời gian còn lại của buổi **thảo luận, trao đổi trong nhóm**, các bạn có thể hỏi han, trao đổi với nhau hoặc thay nhau trình bày hướng dẫn các bạn còn lại.
+- Thời gian: 150 phút/1 đề - giai đoạn luyện tập tổng hợp
+- Giai đoạn 1 - 90 phút đầu tiên: **tự làm không có trợ giúp**, ngắt mạng, không gợi ý, làm bài độc lập. Chấm bằng phần mềm Themis với bộ test được chuẩn bị trước. Giai đoạn này nhằm phát huy hết sức khả năng phân tích, tổng hợp, liên hệ, sáng tạo của học sinh dựa trên nền tảng kiến thức các em sẵn có để nhằm mục tiêu đạt điểm cao nhất có thể.
+- Giai đoạn 2: 30 đến 45 phút tiếp theo **tự tìm hiểu và fix lỗi hoặc cải tiến**, hs có thể dùng mạng internet, AI hoặc hướng dẫn giải được cung cấp từ giáo viên. Giai đoạn này cần trợ giúp để các em có hướng phát triển tiếp phần còn bị vướng mắc, biết mình thiếu kiến thức, kĩ năng gì để tự mình tìm hiểu, bổ sung và hoàn thiện phần khó. Đây là nền tảng của việc tự học có chủ đích.
+- Giai đoạn 3: thời gian còn lại của buổi **thảo luận, trao đổi trong nhóm**, các bạn có thể hỏi han, trao đổi với nhau hoặc thay nhau trình bày hướng dẫn các bạn còn lại. Giai đoạn này phát huy khả năng trao đổi, tương tác trong nhóm với nhau, tạo không khí học tập thân thiện. Bạn làm được giúp các bạn chưa làm được, bản thân các bạn đã làm được rồi cũng có cơ hội trình bày sẽ nắm vững hơn sau giai đoạn trao đổi.
 
 ---
 
