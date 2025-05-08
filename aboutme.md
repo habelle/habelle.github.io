@@ -28,6 +28,7 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
     - [Vai trò của việc đặt câu hỏi trong việc hình thành tư duy thuật toán](https://habelle.github.io/2025-05-07-vai_tro_dat_cau_hoi_trong_day_thuat_toan/)
     - [Dạy lập trình cho học sinh: Giới hạn nào cần giữ, tự do nào nên trao?](https://habelle.github.io/2025-05-07-day_lap_trinh_gioi_han_tu_do/)
     - [Khi nào nên giảng, khi nào nên để học sinh vấp?](https://habelle.github.io/2025-05-07-khi_nao_giang_khi_nao_vap/)
+    - [Làm thế nào để một bài toán thuật toán trở thành trải nghiệm học tập?](https://habelle.github.io/2025-05-07-bai_toan_thanh_trai_nghiem_hoc_tap/)
     - 
 - Tài liệu – nơi chia sẻ các [tài liệu dạy học](https://habelle.github.io/resources/) lập trình của cá nhân tôi.
 
