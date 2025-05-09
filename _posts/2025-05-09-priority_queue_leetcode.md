@@ -103,3 +103,5 @@ vector<int> topKFrequent(vector<int>& nums, int k) {
 ---
 
 Bạn có thể áp dụng PQ trong nhiều bài toán sắp xếp động, greedy, và xử lý ưu tiên!
+
+**Lưu ý:** Nếu bạn cần bộ chuyên đề chi tiết gồm lý thuyết, các bài tập Tiếng Việt và test chấm cũng như code mẫu đầy đủ thì vui lòng liên hệ với tôi.
