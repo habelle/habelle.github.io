@@ -14,39 +14,39 @@
 2. Nâng cao
   - Độ phức tạp tính toán
   - Một số kĩ thuật tối ưu đơn giản:
-    - Kĩ thuật đếm phân phối
-    - Kĩ thuật hai con trỏ, dịch cửa sổ
-    - Kĩ thuật mảng cộng dồn
-    - Kĩ thuật tìm kiếm nhị phân nâng cao
-    - Kĩ thuật loang trên mảng hai chiều
-  
+      - Kĩ thuật đếm phân phối
+      - Kĩ thuật hai con trỏ, dịch cửa sổ
+      - Kĩ thuật mảng cộng dồn
+      - Kĩ thuật tìm kiếm nhị phân nâng cao
+      - Kĩ thuật loang trên mảng hai chiều
+    
   - Các cấu trúc dữ liệu nâng cao
-    - Cấu trúc dữ liệu đồ thị
-    - DSU
-    - Segment Tree
-    - BIT
-   
+      - Cấu trúc dữ liệu đồ thị
+      - DSU
+      - Segment Tree
+      - BIT
+     
   - Một số chiến lược thiết kế thuật toán
-    - Phương pháp duyệt toàn bộ
-    - Phương pháp chia để trị (chủ đạo: tìm kiếm nhị phân nâng cao)
-    - Phương pháp tham lam
-    - Phương pháp Quy hoạch động
-   
+      - Phương pháp duyệt toàn bộ
+      - Phương pháp chia để trị (chủ đạo: tìm kiếm nhị phân nâng cao)
+      - Phương pháp tham lam
+      - Phương pháp Quy hoạch động
+     
   - Đồ thị nâng cao
-    - Phương pháp duyệt đồ thị và ứng dụng
-      - DFS
-      - BFS
-      - Tìm thành phần liên thông
-      - Bài toán tô màu, loang
-      - Sắp xếp topo
-      - Kiểm tra đồ thị hai phía
-      - Cây và thứ tự thăm DFS
-      - Khớp, cầu trên đồ thị vô hướng
-      - Thành phần liên thông mạnh trên đồ thị có hướng
-    - Cây khung nhỏ nhất
-    - Đường đi ngắn nhất
-    - Các thuật toán trên cây
-    - Truy vấn trên cây
+      - Phương pháp duyệt đồ thị và ứng dụng
+          - DFS
+          - BFS
+          - Tìm thành phần liên thông
+          - Bài toán tô màu, loang
+          - Sắp xếp topo
+          - Kiểm tra đồ thị hai phía
+          - Cây và thứ tự thăm DFS
+          - Khớp, cầu trên đồ thị vô hướng
+          - Thành phần liên thông mạnh trên đồ thị có hướng
+      - Cây khung nhỏ nhất
+      - Đường đi ngắn nhất
+      - Các thuật toán trên cây
+      - Truy vấn trên cây
 - Toán
 - Xử lí chuỗi nâng cao
 
