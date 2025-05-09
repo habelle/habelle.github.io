@@ -4,7 +4,7 @@ title: "[Chuyên đề] Kỹ thuật đếm phân phối (Counting Sort)"
 subtitle: "Giới thiệu, ví dụ, độ phức tạp và bài tập vận dụng từ LeetCode"
 tags: [Counting Sort, Sắp xếp, Kỹ thuật đếm, LeetCode, Dạy học thuật toán]
 author: Hoàng Hà
-----------------
+---
 
 Counting Sort là một thuật toán sắp xếp tuyến tính hiệu quả khi giá trị các phần tử đầu vào là các số nguyên không âm và nằm trong một phạm vi nhỏ. Thay vì so sánh các phần tử, thuật toán sử dụng kỹ thuật đếm số lần xuất hiện để phân phối lại các phần tử theo đúng thứ tự.
 
