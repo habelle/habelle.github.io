@@ -25,7 +25,7 @@ Sự thật là rất nhiều tài liệu chất lượng đang tồn tại, nh�
 
 * Chúng **thiếu hệ thống**: học sinh không biết bắt đầu từ đâu, lạc giữa quá nhiều thứ.
 * Thiếu hướng dẫn **tư duy giải quyết vấn đề**: học sinh đọc lời giải nhưng không hiểu vì sao lại nghĩ ra cách đó.
-* Thiếu quá trình **tái hiện và luyện tập có chiến lược**: không chỉ làm bài, mà là học từ lỗi sai, nhận ra mô hình tư duy.
+* Thiếu quá trình [**tái hiện và luyện tập có chiến lược**](https://habelle.github.io/2025-05-10-tai-hien-luyen-tap-co-chien-luoc-trong-day-hoc-lap-trinh/): không chỉ làm bài, mà là học từ lỗi sai, nhận ra mô hình tư duy.
 
 Muốn cải thiện điều này, cần:
 
