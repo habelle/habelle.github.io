@@ -18,11 +18,11 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
 - Chia sẻ về chuyên môn dạy học lập trình:
   - Công cụ và hướng dẫn tổ chức luyện thi HSG môn Tin
   - Quan điểm xây dựng nền tảng lập trình vững chắc
-    - 
   - Quan điểm về phát triển tư duy tối ưu trong quá trình học nâng cao
   - Hệ thống hỗ trợ chấm tự động online, offline
   - Hệ thống đề luyện từng giai đoạn
   - Dạy học trong thời đại AI có gì khác so với truyền thống? Khó khăn, thách thức?
+    - [Điểm cốt lõi nâng cao chất lượng đào tạo lập trình](https://habelle.github.io/2025-05-10-diem-cot-loi-nang-cao-chat-luong-dao-tao-lap-trinh/)
     - [Tổ chức dạy học hiệu quả để giúp học sinh không phụ thuộc vào AI](https://habelle.github.io/2025-05-07-day_hoc_khong_phu_thuoc_AI/) 
     - [Tư duy thuật toán không đến từ việc học cú pháp](https://habelle.github.io/2025-05-07-tu_duy_thuat_toan_khong_den_tu_cu_phap/)
     - [Vai trò của việc đặt câu hỏi trong việc hình thành tư duy thuật toán](https://habelle.github.io/2025-05-07-vai_tro_dat_cau_hoi_trong_day_thuat_toan/)
