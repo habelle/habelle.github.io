@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Coop Adjustable Pillow Review: Best Pillow for Side Sleepers in 2025"
+subtitle: "Discover why the Coop Adjustable Pillow is the top choice for side sleepers in 2025. A fully customizable memory foam pillow that supports your neck, aligns your spine, and helps you sleep better every night"
+tags: [Pillow For Side Sleepers, Product reviews]
+author: Hoàng Hà
+---
 
 # Coop Adjustable Pillow Review: Best Pillow for Side Sleepers in 2025
 
