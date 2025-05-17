@@ -92,3 +92,6 @@ Một giáo viên tốt là người giúp học sinh đi qua từng bài tập 
 ---
 
 **Bạn có thể áp dụng khung này để xây dựng các chuyên đề từ đơn giản như “mảng một chiều” cho đến nâng cao như “quy hoạch động”, “đệ quy quay lui”. Nếu cần trợ giúp lên kế hoạch hoặc tạo chuỗi cụ thể, hãy bắt đầu cùng mình!**
+
+## Thực hành thiết kế chuỗi bài tập
+- [Chuỗi bài tập chuyên đề: Phương pháp duyệt DFS](https://habelle.github.io/2025-05-17-chuoi-bai-tap-dfs/)
