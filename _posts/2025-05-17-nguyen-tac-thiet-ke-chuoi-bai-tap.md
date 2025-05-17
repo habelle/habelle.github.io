@@ -96,3 +96,4 @@ Một giáo viên tốt là người giúp học sinh đi qua từng bài tập 
 ## Thực hành thiết kế chuỗi bài tập
 - [Chuỗi bài tập chuyên đề: Phương pháp duyệt theo chiều sâu DFS](https://habelle.github.io/2025-05-17-chuoi-bai-tap-dfs/)
 - [Chuỗi bài tập chuyên đề: Phương pháp duyệt theo chiều rộng BFS](https://habelle.github.io/2025-05-17-chuoi-bai-tap-bfs/)
+- [Chuỗi bài tập cơ bản giúp học sinh làm quen với cấu trúc lặp](https://habelle.github.io/2025-05-17-chuoi-bai-tap-vong-lap-co-ban/)
