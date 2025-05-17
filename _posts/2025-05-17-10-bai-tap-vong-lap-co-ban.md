@@ -179,9 +179,17 @@ In n dòng, dòng thứ i có i dấu *.
 
 **Ví dụ mẫu**
 
-| Input | Output |
-|-------|--------|
-| 3 | *\n**\n*** |
+**Input:**
+```
+3
+```
+
+**Output:**
+```
+*
+**
+***
+```
 
 ---
 
@@ -198,8 +206,19 @@ In 9 bảng nhân, từ 1 đến 9.
 
 **Ví dụ mẫu**
 
-| Input | Output |
-|-------|--------|
-|  | 1 x 1 = 1\n...\n9 x 9 = 81 |
+**Input:**
+```
+
+```
+
+**Output:**
+```
+1 x 1 = 1
+1 x 2 = 2
+...
+9 x 9 = 81
+```
 
 ---
+
+**Nếu bạn muốn có các tài liệu chi tiết về hướng dẫn thuật toán, các lưu ý dạy học, lộ trình dạy học, test chấm một cách hệ thống vui lòng liên hệ với tôi nhé**
