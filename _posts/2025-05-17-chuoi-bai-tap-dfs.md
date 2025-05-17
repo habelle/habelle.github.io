@@ -78,8 +78,6 @@ Tô hai màu sao cho không có hai đỉnh kề nhau cùng màu (kiểm tra đ�
 
 - Với mỗi bài, nên cho học sinh **vẽ tay đồ thị/mê cung**, mô phỏng DFS trước khi code.
 - Khuyến khích học sinh **viết DFS theo cả đệ quy và stack**.
-- Dùng hệ thống như [cses.fi](https://cses.fi), [leetcode.com](https://leetcode.com) để chấm tự động và luyện tập độc lập.
+- Dùng hệ thống chấm tự động và luyện tập độc lập.
 
----
 
-Bạn muốn mình tạo đề bài chi tiết từng bài trong chuỗi này? Hay đóng gói toàn bộ thành tài liệu giảng dạy đầy đủ? Hãy để lại phản hồi!
