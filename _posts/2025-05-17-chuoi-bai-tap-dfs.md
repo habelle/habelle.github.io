@@ -80,4 +80,6 @@ Tô hai màu sao cho không có hai đỉnh kề nhau cùng màu (kiểm tra đ�
 - Khuyến khích học sinh **viết DFS theo cả đệ quy và stack**.
 - Dùng hệ thống chấm tự động và luyện tập độc lập.
 
+**Nếu bạn cần bản chuyên đề đầy đủ gồm chi tiết đề bài, hướng dẫn cách nghĩ thuật toán, code mẫu C++ và test chấm để dạy học chuyên đề này, vui lòng liên hệ với mình qua email: hahoangthi@gmail.com**
+
 
