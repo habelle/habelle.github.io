@@ -18,6 +18,7 @@ Với nỗ lực biến các kiến thức tưởng chừng khô khan, hóc búa
 - Chia sẻ về chuyên môn dạy học lập trình:
   - Công cụ và hướng dẫn tổ chức luyện thi HSG môn Tin
   - Quan điểm xây dựng nền tảng lập trình vững chắc
+    - [Các nguyên tắc sư phạm hiện đại trong việc xây dựng bài tập lập trình](https://habelle.github.io/2025-05-17-nguyen-tac-thiet-ke-chuoi-bai-tap/)
   - Quan điểm về phát triển tư duy tối ưu trong quá trình học nâng cao
   - Hệ thống hỗ trợ chấm tự động online, offline
   - Hệ thống đề luyện từng giai đoạn
