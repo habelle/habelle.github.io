@@ -79,4 +79,4 @@ Bài viết này giới thiệu chuỗi **16 bài tập vòng lặp cơ bản** 
 
 ---
 
-Bạn muốn mình triển khai các bài này thành tài liệu `.docx`, có test chấm offline hoặc tổ chức thành đề luyện thi đầu vào? Hãy nhắn mình để hỗ trợ đầy đủ!
+**Nếu bạn muốn có chi tiết nội dung các bài tập cùng hướng dẫn thuật toán, code mẫu C++ và test chấm, vui lòng liên hệ với tôi**
