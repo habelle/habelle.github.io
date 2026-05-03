@@ -30,15 +30,16 @@ Mỗi bài học gồm 4 bước:
 
 ## Lộ trình học
 
-| Bài | Chủ đề | Link |
+| Tuần | Chủ đề | Link |
 |---|---|---|
-| Bài 1 | Nhập xuất, biến, biểu thức | [Xem bài học](/courses/cpp-basic/week-01/) |
-| Bài 2 | Rẽ nhánh if else | [Xem bài học](/courses/cpp-basic/week-02/) |
-| Bài 3 | Vòng lặp cơ bản | [Xem bài học](/courses/cpp-basic/week-03/) |
-| Bài 4 | Mảng một chiều | [Xem bài học](/courses/cpp-basic/week-04/) |
-| Bài 5 | Mảng hai chiều | [Xem bài học](/courses/cpp-basic/week-05/) |
-| Bài 6 | Chương trình con | [Xem bài học](/courses/cpp-basic/week-06/) |
-| Bài 7 | Xâu kí tự cơ bản | [Xem bài học](/courses/cpp-basic/week-07/) |
+| Tuần 1 | Nhập xuất, biến, biểu thức | [Xem bài học](/courses/cpp-basic/week-01/) |
+| Tuần 2 | Rẽ nhánh if else | [Xem bài học](/courses/cpp-basic/week-02/) |
+| Tuần 3 | Vòng lặp cơ bản 1 | [Xem bài học](/courses/cpp-basic/week-03/) |
+| Tuần 4 | Vòng lặp cơ bản 2 | [Xem bài học](/courses/cpp-basic/week-04/) |
+| Tuần 5 | Vòng lặp cơ bản 3 | [Xem bài học](/courses/cpp-basic/week-05/) |
+| Tuần 6 | Mảng một chiều | [Xem bài học](/courses/cpp-basic/week-06/) |
+| Tuần 7 | Mảng hai chiều | [Xem bài học](/courses/cpp-basic/week-07/) |
+| Tuần 8 | Xâu kí tự cơ bản | [Xem bài học](/courses/cpp-basic/week-08/) |
 
 ## Lưu ý cho học sinh
 
