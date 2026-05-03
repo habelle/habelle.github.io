@@ -30,12 +30,15 @@ Mỗi bài học gồm 4 bước:
 
 ## Lộ trình học
 
-| Tuần | Chủ đề | Link |
+| Bài | Chủ đề | Link |
 |---|---|---|
-| Tuần 1 | Nhập xuất, biến, biểu thức | [Xem bài học](/courses/cpp-basic/week-01/) |
-| Tuần 2 | Rẽ nhánh if else | [Xem bài học](/courses/cpp-basic/week-02/) |
-| Tuần 3 | Vòng lặp cơ bản | [Xem bài học](/courses/cpp-basic/week-03/) |
-| Tuần 4 | Mảng một chiều | [Xem bài học](/courses/cpp-basic/week-04/) |
+| Bài 1 | Nhập xuất, biến, biểu thức | [Xem bài học](/courses/cpp-basic/week-01/) |
+| Bài 2 | Rẽ nhánh if else | [Xem bài học](/courses/cpp-basic/week-02/) |
+| Bài 3 | Vòng lặp cơ bản | [Xem bài học](/courses/cpp-basic/week-03/) |
+| Bài 4 | Mảng một chiều | [Xem bài học](/courses/cpp-basic/week-04/) |
+| Bài 5 | Mảng hai chiều | [Xem bài học](/courses/cpp-basic/week-05/) |
+| Bài 6 | Chương trình con | [Xem bài học](/courses/cpp-basic/week-06/) |
+| Bài 7 | Xâu kí tự cơ bản | [Xem bài học](/courses/cpp-basic/week-07/) |
 
 ## Lưu ý cho học sinh
 
