@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Khóa C++ cơ bản cho học sinh
-permalink: /courses/cpp-basic/
+permalink: /khoa-hoc/cpp/
 ---
 
 # Khóa C++ cơ bản cho học sinh THCS, THPT
