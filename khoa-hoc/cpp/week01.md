@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tuần 1 - Nhập xuất, biến và biểu thức cơ bản
-permalink: /courses/cpp-basic/week-01/
+permalink: /khoa-hoc/cpp/week-01/
 ---
 
 # Tuần 1 - Nhập xuất, biến và biểu thức cơ bản
