@@ -15,7 +15,7 @@ Sau khóa học, học sinh có thể:
 - Viết chương trình C++ cơ bản
 - Thành thạo nhập xuất, biến, biểu thức
 - Sử dụng câu lệnh rẽ nhánh và vòng lặp
-- Làm quen với mảng một chiều, xâu ký tự
+- Làm quen với mảng một chiều, mảng hai chiều, xâu ký tự
 - Biết cách nộp bài trên hệ thống Online Judge
 - Hình thành thói quen đọc đề, phân tích ví dụ và kiểm tra lỗi
 
