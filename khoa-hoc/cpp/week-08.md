@@ -4,291 +4,258 @@ title: Tuần 8 - Xử lý xâu ký tự
 permalink: /khoa-hoc/cpp/week-08/
 ---
 
-
 <style>
-.course-shell {
-  display: grid;
-  grid-template-columns: 270px minmax(0, 1fr);
-  gap: 28px;
-  align-items: start;
+.week-hero{
+padding:26px;
+border-radius:20px;
+background:linear-gradient(135deg,#eef6ff,#f8fbff);
+border:1px solid #dbeafe;
+margin-bottom:24px
 }
-.course-sidebar {
-  position: sticky;
-  top: 18px;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-  overflow: hidden;
+.course-nav{
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa;
+margin:20px 0
 }
-.course-sidebar-header {
-  padding: 16px 18px;
-  background: #111827;
-  color: #ffffff;
+.course-nav-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+gap:8px
 }
-.course-sidebar-header .course-title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.35;
+.course-nav a{
+display:block;
+padding:8px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;
+border:1px solid #e5e7eb;
+background:white;
+font-weight:600
 }
-.course-sidebar-header .course-subtitle {
-  margin-top: 4px;
-  font-size: 13px;
-  color: #d1d5db;
+.course-nav a.current{
+background:#2563eb;
+color:white !important;
+border-color:#2563eb
 }
-.course-week-list {
-  margin: 0;
-  padding: 8px;
-  list-style: none;
+.week-image{
+margin:20px 0;
+border-radius:16px;
+overflow:hidden;
+border:1px solid #e5e7eb
 }
-.course-week-list li {
-  margin: 4px 0;
+.week-image img{width:100%}
+.locked-list{
+padding:18px;
+border-radius:16px;
+border:1px dashed #cbd5e1;
+background:#f8fafc;
+margin:18px 0
 }
-.course-week-list a {
-  display: block;
-  padding: 10px 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #374151;
-  font-size: 14px;
-  line-height: 1.35;
+details{
+margin-top:10px;
+padding:10px;
+background:#f9fafb;
+border-radius:10px;
+border:1px solid #e5e7eb
 }
-.course-week-list a:hover {
-  background: #f3f4f6;
+.video-box{
+margin:24px 0;
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa
 }
-.course-week-list a.active {
-  background: #2563eb;
-  color: #ffffff;
-  font-weight: 700;
-}
-.course-week-list .week-topic {
-  display: block;
-  font-size: 12px;
-  opacity: 0.85;
-  margin-top: 2px;
-}
-.course-main {
-  min-width: 0;
-}
-.course-topbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 12px 0 24px;
-  padding: 12px 14px;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #f9fafb;
-}
-.course-topbar a {
-  text-decoration: none;
-  font-weight: 600;
-}
-.course-progress {
-  font-size: 14px;
-  color: #4b5563;
-  margin-bottom: 12px;
-}
-@media (max-width: 860px) {
-  .course-shell {
-    display: block;
-  }
-  .course-sidebar {
-    position: relative;
-    top: auto;
-    margin-bottom: 22px;
-  }
-  .course-week-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.cta-box{
+padding:28px;
+border-radius:20px;
+background:linear-gradient(135deg,#eff6ff,#fff7ed);
+border:1px solid #bfdbfe;
+margin-top:40px;
+text-align:center
 }
 </style>
 
-
-<div class="course-shell">
-<aside class="course-sidebar">
-  <div class="course-sidebar-header">
-    <div class="course-title">Khóa C++ cơ bản</div>
-    <div class="course-subtitle">Lộ trình 8 tuần</div>
-  </div>
-  <ul class="course-week-list">
-    <li><a href="/khoa-hoc/cpp/week-01/">Tuần 1<span class="week-topic">Bài tập cơ bản</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-02/">Tuần 2<span class="week-topic">Rẽ nhánh và điều kiện</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-03/">Tuần 3<span class="week-topic">Vòng lặp phần 1</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-04/">Tuần 4<span class="week-topic">Xử lý chữ số</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-05/">Tuần 5<span class="week-topic">Vòng lặp lồng nhau</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-06/">Tuần 6<span class="week-topic">Mảng một chiều</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-07/">Tuần 7<span class="week-topic">Mảng hai chiều</span></a></li>
-<li><a class="active" href="/khoa-hoc/cpp/week-08/">Tuần 8<span class="week-topic">Xâu ký tự</span></a></li>
-  </ul>
-</aside>
-
-<main class="course-main" markdown="1">
-
-
-<div class="course-progress">Tiến độ: Tuần 8 / 8</div>
-
+<div class="week-hero">
 
 # Tuần 8 - Xử lý xâu ký tự
 
-👉 Hãy thử làm bài trước khi mở hint hoặc xem video chữa bài.
+Tuần 8 giúp học sinh làm quen với dữ liệu dạng văn bản:
+
+👉 duyệt từng ký tự trong xâu  
+👉 đếm ký tự  
+👉 so sánh xâu  
+👉 kiểm tra xâu đối xứng  
+👉 xử lý từ và ký tự theo điều kiện  
+
+Đây là bước chuyển quan trọng từ xử lý số, mảng sang xử lý dữ liệu văn bản.
+
+</div>
 
 ---
 
-## Bài A: New string
+## Điều hướng khóa học
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/A)
+<div class="course-nav">
+<div class="course-nav-grid">
+
+<a href="/khoa-hoc/cpp/week-01/">Tuần 1</a>
+<a href="/khoa-hoc/cpp/week-02/">Tuần 2</a>
+<a href="/khoa-hoc/cpp/week-03/">Tuần 3</a>
+<a href="/khoa-hoc/cpp/week-04/">Tuần 4</a>
+<a href="/khoa-hoc/cpp/week-05/">Tuần 5</a>
+<a href="/khoa-hoc/cpp/week-06/">Tuần 6</a>
+<a href="/khoa-hoc/cpp/week-07/">Tuần 7</a>
+<a class="current" href="/khoa-hoc/cpp/week-08/">Tuần 8</a>
+<a href="/khoa-hoc/cpp/week-09/">Tuần 9</a>
+<a href="/khoa-hoc/cpp/week-10/">Tuần 10</a>
+<a href="/khoa-hoc/cpp/week-11/">Tuần 11</a>
+<a href="/khoa-hoc/cpp/week-12/">Tuần 12</a>
+
+</div>
+</div>
+
+---
+
+## 1. Tổng quan các bài trong tuần
+
+<div class="week-image">
+<img src="/khoa-hoc/cpp/cpp-week-08-overview.png">
+</div>
+
+---
+
+## 2. Làm thử 2 bài đầu
+
+👉 Đây là phần demo miễn phí  
+👉 Hai bài đầu giúp học sinh làm quen với thao tác duyệt và xử lý xâu ký tự  
+
+---
+
+### Bài A: New string
 
 <details>
-<summary>Hint</summary>
+<summary>💡 Hint</summary>
 
-Duyệt từng ký tự của xâu và xử lý theo yêu cầu đề bài.
+Đọc xâu đầu vào.
+
+Sau đó duyệt từng ký tự trong xâu bằng vòng lặp.
+
+Với mỗi ký tự, xử lý theo đúng yêu cầu đề bài.
+
+Khi làm bài xử lý xâu, cần chú ý:
+
+- độ dài xâu
+- vị trí ký tự
+- ký tự đầu tiên và ký tự cuối cùng
+- kết quả cần tạo ra là xâu mới hay chỉ in trực tiếp
 
 </details>
 
-[🎥 Video chữa bài](VIDEO_A_CHUA_BAI_URL)
-
 ---
 
-## Bài B: String counts
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/B)
+### Bài B: String counts
 
 <details>
-<summary>Hint</summary>
+<summary>💡 Hint</summary>
 
-Duyệt xâu và đếm số lần xuất hiện của ký tự hoặc nhóm ký tự.
+Duyệt toàn bộ xâu từ trái sang phải.
+
+Dùng biến đếm để đếm số ký tự thỏa mãn điều kiện.
+
+Nếu đề yêu cầu đếm một loại ký tự cụ thể, hãy kiểm tra từng ký tự khi duyệt.
+
+Ví dụ tư duy chung:
+
+- gặp ký tự cần đếm → tăng biến đếm
+- không gặp → bỏ qua
 
 </details>
 
-[🎥 Video chữa bài](VIDEO_B_CHUA_BAI_URL)
+---
+
+## 3. 🎥 Video chữa 2 bài đầu
+
+<div class="video-box">
+
+<iframe 
+width="100%" height="400"
+src="https://www.youtube.com/embed/VIDEO_TUAN_8?rel=0"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+👉 Nên tự làm trước, sau đó xem video để hiểu cách duyệt xâu và xử lý từng ký tự.
 
 ---
 
-## Bài C: Compare
+## 4. Các bài còn lại (dành cho học viên)
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/C)
+<div class="locked-list">
 
-<details>
-<summary>Hint</summary>
+<ul>
 
-So sánh hai xâu theo từng ký tự hoặc dùng toán tử so sánh của string.
+<li><b>Bài C: Compare</b> — luyện so sánh hai xâu, hiểu thứ tự từ điển và cách so sánh ký tự.</li>
 
-</details>
+<li><b>Bài D: Strings</b> — tổng hợp các thao tác cơ bản trên xâu như nối, duyệt, truy cập ký tự.</li>
 
-[🎥 Video chữa bài](VIDEO_C_CHUA_BAI_URL)
+<li><b>Bài E: Count</b> — luyện đếm ký tự thỏa mãn điều kiện trong xâu.</li>
 
----
+<li><b>Bài F: Way Too Long Words</b> — xử lý xâu theo quy tắc rút gọn, bài kinh điển cho người mới học.</li>
 
-## Bài D: Strings
+<li><b>Bài G: Palindrome</b> — kiểm tra xâu đối xứng bằng cách so sánh hai đầu.</li>
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/D)
+<li><b>Bài H: COUNT LETTERS</b> — dùng mảng đếm để thống kê số lần xuất hiện của chữ cái.</li>
 
-<details>
-<summary>Hint</summary>
+<li><b>Bài I: WORD COUNT</b> — đếm số từ trong một dòng văn bản, chú ý khoảng trắng và ký tự phân tách.</li>
 
-Xử lý các thao tác cơ bản trên xâu như nối, duyệt hoặc biến đổi ký tự.
+<li><b>Bài J: COUNT CHARS</b> — đếm ký tự theo yêu cầu, rèn kỹ năng duyệt và phân loại ký tự.</li>
 
-</details>
+</ul>
 
-[🎥 Video chữa bài](VIDEO_D_CHUA_BAI_URL)
+</div>
 
 ---
 
-## Bài E: Count
+## 5. Vì sao tuần 8 quan trọng?
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/E)
+Tuần này giúp học sinh:
 
-<details>
-<summary>Hint</summary>
+- làm quen với dữ liệu dạng xâu ký tự
+- biết cách duyệt từng ký tự
+- biết cách đếm, so sánh và kiểm tra điều kiện trên xâu
+- sử dụng lại kiến thức vòng lặp, điều kiện và mảng
+- chuẩn bị cho các bài xử lý văn bản nâng cao hơn
 
-Đếm số ký tự thỏa mãn điều kiện bằng cách duyệt toàn bộ xâu.
+Xử lý xâu là phần rất thường gặp trong các bài thi lập trình cơ bản và học sinh giỏi cấp 2.
 
-</details>
-
-[🎥 Video chữa bài](VIDEO_E_CHUA_BAI_URL)
-
----
-
-## Bài F: Way Too Long Words
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/F)
-
-<details>
-<summary>Hint</summary>
-
-Nếu độ dài xâu lớn hơn một giá trị nhất định, hãy rút gọn theo quy tắc đề bài.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_F_CHUA_BAI_URL)
+Nếu học sinh nắm chắc tuần này, các em sẽ tự tin hơn khi gặp các bài liên quan đến ký tự, từ, câu, chuỗi đối xứng hoặc thống kê tần suất.
 
 ---
 
-## Bài G: Palindrome
+<div class="cta-box">
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/G)
+## 🔓 Mở khóa toàn bộ khóa học
 
-<details>
-<summary>Hint</summary>
+Học tiếp để:
 
-So sánh ký tự đầu và cuối, rồi tiến dần vào giữa.
+- Thành thạo xử lý xâu ký tự  
+- Biết cách phân tích bài toán văn bản  
+- Chuẩn bị tốt cho phần hàm, sắp xếp, tìm kiếm và đệ quy  
 
-</details>
+<br>
 
-[🎥 Video chữa bài](VIDEO_G_CHUA_BAI_URL)
+<a href="https://forms.gle/tFNgE7FiSq1LCSeC9"
+style="padding:12px 20px;background:#2563eb;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+👉 Đăng ký khóa học
+</a>
 
----
+<a href="https://zalo.me/0906090788"
+style="padding:12px 20px;background:#16a34a;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+Liên hệ Zalo
+</a>
 
-## Bài H: COUNT LETTERS
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/H)
-
-<details>
-<summary>Hint</summary>
-
-Dùng mảng đếm hoặc biến để đếm số lần xuất hiện của từng chữ cái.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_H_CHUA_BAI_URL)
-
----
-
-## Bài I: WORD COUNT
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/I)
-
-<details>
-<summary>Hint</summary>
-
-Đếm số từ bằng cách dựa vào khoảng trắng hoặc ký tự phân tách.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_I_CHUA_BAI_URL)
-
----
-
-## Bài J: COUNT CHARS
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/341988/problem/J)
-
-<details>
-<summary>Hint</summary>
-
-Duyệt xâu và đếm số lượng ký tự theo yêu cầu đề bài.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_J_CHUA_BAI_URL)
-
----
-
-
-<div class="course-progress">Tiến độ: Tuần 8 / 8</div>
-
-
-</main>
 </div>
