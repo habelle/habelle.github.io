@@ -112,14 +112,7 @@ Tuần 1 giúp học sinh bắt đầu từ những thao tác đầu tiên trong
 ## 1. Tổng quan các bài trong tuần
 
 <div class="week-image">
-  <img src="/assets/images/cpp-week-01-overview.png" alt="Tổng quan các bài học tuần 1 - Làm quen với C++">
-</div>
-
-<div class="week-note">
-
-👉 Bạn có thể thay ảnh trên bằng ảnh thật của tuần 1.  
-Gợi ý tên file: `/assets/images/cpp-week-01-overview.png`
-
+  <img src="/khoa-hoc/cpp/cpp-week-01-overview.png" alt="Tổng quan các bài học tuần 1 - Làm quen với C++">
 </div>
 
 ---
