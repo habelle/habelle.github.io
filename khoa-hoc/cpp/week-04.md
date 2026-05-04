@@ -1,233 +1,218 @@
 ---
 layout: page
-title: Tuần 4 - Vòng lặp nâng cao và xử lý chữ số
+title: Tuần 4 - Xử lý chữ số và bài toán số
 permalink: /khoa-hoc/cpp/week-04/
 ---
 
-
 <style>
-.course-shell {
-  display: grid;
-  grid-template-columns: 270px minmax(0, 1fr);
-  gap: 28px;
-  align-items: start;
+.week-hero{
+padding:26px;
+border-radius:20px;
+background:linear-gradient(135deg,#eef6ff,#f8fbff);
+border:1px solid #dbeafe;
+margin-bottom:24px
 }
-.course-sidebar {
-  position: sticky;
-  top: 18px;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  background: #ffffff;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-  overflow: hidden;
+.course-nav{
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa;
+margin:20px 0
 }
-.course-sidebar-header {
-  padding: 16px 18px;
-  background: #111827;
-  color: #ffffff;
+.course-nav-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+gap:8px
 }
-.course-sidebar-header .course-title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.35;
+.course-nav a{
+display:block;
+padding:8px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;
+border:1px solid #e5e7eb;
+background:white;
+font-weight:600
 }
-.course-sidebar-header .course-subtitle {
-  margin-top: 4px;
-  font-size: 13px;
-  color: #d1d5db;
+.course-nav a.current{
+background:#2563eb;
+color:white !important;
+border-color:#2563eb
 }
-.course-week-list {
-  margin: 0;
-  padding: 8px;
-  list-style: none;
+.week-image{
+margin:20px 0;
+border-radius:16px;
+overflow:hidden;
+border:1px solid #e5e7eb
 }
-.course-week-list li {
-  margin: 4px 0;
+.week-image img{width:100%}
+.problem-card{
+padding:18px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:white;
+margin:16px 0
 }
-.course-week-list a {
-  display: block;
-  padding: 10px 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #374151;
-  font-size: 14px;
-  line-height: 1.35;
+.locked-list{
+padding:18px;
+border-radius:16px;
+border:1px dashed #cbd5e1;
+background:#f8fafc;
+margin:18px 0
 }
-.course-week-list a:hover {
-  background: #f3f4f6;
+details{
+margin-top:10px;
+padding:10px;
+background:#f9fafb;
+border-radius:10px;
+border:1px solid #e5e7eb
 }
-.course-week-list a.active {
-  background: #2563eb;
-  color: #ffffff;
-  font-weight: 700;
+.video-box{
+margin:24px 0;
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa
 }
-.course-week-list .week-topic {
-  display: block;
-  font-size: 12px;
-  opacity: 0.85;
-  margin-top: 2px;
-}
-.course-main {
-  min-width: 0;
-}
-.course-topbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 12px 0 24px;
-  padding: 12px 14px;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #f9fafb;
-}
-.course-topbar a {
-  text-decoration: none;
-  font-weight: 600;
-}
-.course-progress {
-  font-size: 14px;
-  color: #4b5563;
-  margin-bottom: 12px;
-}
-@media (max-width: 860px) {
-  .course-shell {
-    display: block;
-  }
-  .course-sidebar {
-    position: relative;
-    top: auto;
-    margin-bottom: 22px;
-  }
-  .course-week-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.cta-box{
+padding:28px;
+border-radius:20px;
+background:linear-gradient(135deg,#eff6ff,#fff7ed);
+border:1px solid #bfdbfe;
+margin-top:40px;
+text-align:center
 }
 </style>
 
+<div class="week-hero">
 
-<div class="course-shell">
-<aside class="course-sidebar">
-  <div class="course-sidebar-header">
-    <div class="course-title">Khóa C++ cơ bản</div>
-    <div class="course-subtitle">Lộ trình 8 tuần</div>
-  </div>
-  <ul class="course-week-list">
-    <li><a href="/khoa-hoc/cpp/week-01/">Tuần 1<span class="week-topic">Bài tập cơ bản</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-02/">Tuần 2<span class="week-topic">Rẽ nhánh và điều kiện</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-03/">Tuần 3<span class="week-topic">Vòng lặp phần 1</span></a></li>
-<li><a class="active" href="/khoa-hoc/cpp/week-04/">Tuần 4<span class="week-topic">Xử lý chữ số</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-05/">Tuần 5<span class="week-topic">Vòng lặp lồng nhau</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-06/">Tuần 6<span class="week-topic">Mảng một chiều</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-07/">Tuần 7<span class="week-topic">Mảng hai chiều</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-08/">Tuần 8<span class="week-topic">Xâu ký tự</span></a></li>
-  </ul>
-</aside>
+# Tuần 4 - Xử lý chữ số và bài toán số
 
-<main class="course-main" markdown="1">
+Tuần 4 giúp học sinh:
 
+👉 tách chữ số bằng % và /  
+👉 đảo số  
+👉 kiểm tra tính chất của số  
 
-<div class="course-progress">Tiến độ: Tuần 4 / 8</div>
+Đây là bước rất quan trọng để hình thành tư duy xử lý số.
 
-# Tuần 4 - Vòng lặp nâng cao và xử lý chữ số
-
-👉 Hãy thử làm bài trước khi mở hint hoặc xem video chữa bài.
+</div>
 
 ---
 
-## Bài A: Đảo ngược số
+## Điều hướng khóa học
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/A)
+<div class="course-nav">
+<div class="course-nav-grid">
 
-<details>
-<summary>Hint</summary>
+<a href="/khoa-hoc/cpp/week-01/">Tuần 1</a>
+<a href="/khoa-hoc/cpp/week-02/">Tuần 2</a>
+<a href="/khoa-hoc/cpp/week-03/">Tuần 3</a>
+<a class="current" href="/khoa-hoc/cpp/week-04/">Tuần 4</a>
+<a href="/khoa-hoc/cpp/week-05/">Tuần 5</a>
+<a href="/khoa-hoc/cpp/week-06/">Tuần 6</a>
+<a href="/khoa-hoc/cpp/week-07/">Tuần 7</a>
+<a href="/khoa-hoc/cpp/week-08/">Tuần 8</a>
+<a href="/khoa-hoc/cpp/week-09/">Tuần 9</a>
+<a href="/khoa-hoc/cpp/week-10/">Tuần 10</a>
+<a href="/khoa-hoc/cpp/week-11/">Tuần 11</a>
+<a href="/khoa-hoc/cpp/week-12/">Tuần 12</a>
 
-Dùng vòng lặp để tách từng chữ số bằng phép chia lấy dư cho 10.
+</div>
+</div>
+
+---
+
+## 1. Tổng quan các bài trong tuần
+
+<div class="week-image">
+<img src="/khoa-hoc/cpp/cpp-week-04-overview.png">
+</div>
+
+---
+
+## 2. Làm thử 2 bài đầu
+
+👉 Đây là phần demo miễn phí  
+
+👉 Hai bài này giúp bạn hiểu cách xử lý chữ số  
+
+---
+
+### Bài A: Đảo ngược số
+<details><summary>💡 Hint</summary>
+
+Lấy chữ số cuối bằng n % 10  
+Ghép vào kết quả  
+Sau đó chia n cho 10  
 
 </details>
 
-[🎥 Video chữa bài](VIDEO_A_CHUA_BAI_URL)
-
 ---
 
-## Bài B: Số Armstrong
+### Bài B: Số Armstrong
+<details><summary>💡 Hint</summary>
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/B)
-
-<details>
-<summary>Hint</summary>
-
-Tách từng chữ số, tính tổng lũy thừa các chữ số rồi so sánh với số ban đầu.
+Tách từng chữ số  
+Tính tổng lũy thừa các chữ số  
+So sánh với số ban đầu  
 
 </details>
 
-[🎥 Video chữa bài](VIDEO_B_CHUA_BAI_URL)
+---
+
+## 3. 🎥 Video chữa 2 bài đầu
+
+<div class="video-box">
+
+<iframe 
+width="100%" height="400"
+src="https://www.youtube.com/embed/VIDEO_TUAN_4?rel=0"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
 
 ---
 
-## Bài C: Tìm số đảo ngược của một số
+## 4. Các bài còn lại (dành cho học viên)
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/C)
+<div class="locked-list">
 
-<details>
-<summary>Hint</summary>
+<ul>
 
-Khởi tạo biến kết quả bằng 0, mỗi lần lấy chữ số cuối và ghép vào kết quả.
+<li><b>Bài C: Tìm số đảo ngược của một số</b></li>
+<li><b>Bài D: Kiểm tra số đối xứng</b></li>
+<li><b>Bài E: Đọc số</b></li>
+<li><b>Bài F: Viết bằng chữ</b></li>
 
-</details>
+</ul>
 
-[🎥 Video chữa bài](VIDEO_C_CHUA_BAI_URL)
-
----
-
-## Bài D: Kiểm tra số đối xứng
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/D)
-
-<details>
-<summary>Hint</summary>
-
-Tạo số đảo ngược rồi so sánh với số ban đầu.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_D_CHUA_BAI_URL)
+</div>
 
 ---
 
-## Bài E: Đọc số
+<div class="cta-box">
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/E)
+## 🔓 Mở khóa toàn bộ khóa học
 
-<details>
-<summary>Hint</summary>
+Học tiếp để:
 
-Tách từng chữ số hoặc xử lý theo từng hàng: trăm, chục, đơn vị.
+- Thành thạo xử lý số  
+- Làm chủ vòng lặp nâng cao  
+- Chuẩn bị cho mảng và thuật toán  
 
-</details>
+<br>
 
-[🎥 Video chữa bài](VIDEO_E_CHUA_BAI_URL)
+<a href="https://forms.gle/tFNgE7FiSq1LCSeC9"
+style="padding:12px 20px;background:#2563eb;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+👉 Đăng ký khóa học
+</a>
 
----
+<a href="https://zalo.me/0906090788"
+style="padding:12px 20px;background:#16a34a;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+Liên hệ Zalo
+</a>
 
-## Bài F: Viết Bằng Chữ
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294936/problem/F)
-
-<details>
-<summary>Hint</summary>
-
-Chia số thành các phần nhỏ, sau đó chuyển từng phần sang chữ theo quy tắc.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_F_CHUA_BAI_URL)
-
----
-
-
-<div class="course-progress">Tiến độ: Tuần 4 / 8</div>
-
-
-</main>
 </div>
