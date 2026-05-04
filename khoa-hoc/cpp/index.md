@@ -76,7 +76,11 @@ Mỗi bài học gồm 3 phần:
 | Tuần 5 | Vòng lặp lồng nhau và in hình sao | [Xem tuần 5](/khoa-hoc/cpp/week-05/) |
 | Tuần 6 | Mảng một chiều | [Xem tuần 6](/khoa-hoc/cpp/week-06/) |
 | Tuần 7 | Mảng hai chiều | [Xem tuần 7](/khoa-hoc/cpp/week-07/) |
-| Tuần 8 | Xử lý xâu ký tự | [Xem tuần 8](/khoa-hoc/cpp/week-08/) |
+| Tuần 8 | Hàm có sẵn trong thư viện | [Xem tuần 8](/khoa-hoc/cpp/week-08/) |
+| Tuần 9 | Hàm do người dùng tự định nghĩa | [Xem tuần 9](/khoa-hoc/cpp/week-09/) |
+| Tuần 10 | Xử lí xâu kí tự | [Xem tuần 10](/khoa-hoc/cpp/week-10/) |
+| Tuần 11 | Sắp xếp và tìm kiếm trong thư viện STL | [Xem tuần 11](/khoa-hoc/cpp/week-11/) |
+| Tuần 12 | Đệ quy cơ bản | [Xem tuần 12](/khoa-hoc/cpp/week-12/) |
 
 ---
 
