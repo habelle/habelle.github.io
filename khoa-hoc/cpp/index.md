@@ -152,7 +152,7 @@ Phù hợp với học sinh tự học có phụ huynh hoặc giáo viên theo s
 <li>Tài khoản luyện tập trên OJ</li>
 </ul>
 
-<a class="pricing-cta" href="https://zalo.me/0906090788">Đăng ký ngay</a>
+<a class="pricing-cta" href="https://forms.gle/tFNgE7FiSq1LCSeC9">Đăng ký ngay</a>
 
 </div>
 
@@ -172,7 +172,7 @@ Phù hợp với học sinh cần được theo dõi tiến độ.
 <li>Hỗ trợ qua nhóm Zalo</li>
 </ul>
 
-<a class="pricing-cta" href="https://zalo.me/0906090788">Đăng ký ngay</a>
+<a class="pricing-cta" href="https://forms.gle/tFNgE7FiSq1LCSeC9">Đăng ký ngay</a>
 
 </div>
 
@@ -183,22 +183,10 @@ Phù hợp với học sinh cần được theo dõi tiến độ.
 
 Để đăng ký khóa học, phụ huynh/học sinh thực hiện 3 bước:
 
-1. Nhắn tin cho giáo viên qua Zalo/Facebook
+1. Điền form đăng kí
+1. Nhắn tin cho giáo viên qua Zalo
 2. Chuyển khoản học phí theo hướng dẫn
 3. Nhận tài khoản OJ và link học
-
----
-
-## Thông tin liên hệ
-
-**Giáo viên:** Hoàng Hà  
-
-**Zalo:** 0906 090 788
-
-**Facebook:** http://facebook.com/hoang.ha.9134 
-
-**Email:** ha.hoangthi@gmail.com  
-
 
 ---
 
