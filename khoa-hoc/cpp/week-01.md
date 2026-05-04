@@ -4,115 +4,17 @@ title: Tuần 1 - Làm quen với C++
 permalink: /khoa-hoc/cpp/week-01/
 ---
 
-<style>
-.week-hero {
-  padding: 24px;
-  border-radius: 18px;
-  background: linear-gradient(135deg, #eef6ff, #f8fbff);
-  border: 1px solid #dbeafe;
-  margin-bottom: 24px;
-}
-.week-note {
-  padding: 14px 16px;
-  border-left: 5px solid #2563eb;
-  background: #eff6ff;
-  border-radius: 10px;
-  margin: 18px 0;
-}
-.week-image {
-  margin: 20px 0;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid #e5e7eb;
-  background: #f9fafb;
-}
-.week-image img {
-  width: 100%;
-  display: block;
-}
-.video-box {
-  margin: 22px 0;
-  padding: 16px;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  background: #fafafa;
-}
-.video-title {
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.video-frame {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 12px;
-  background: #000;
-}
-.video-frame iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.contest-box {
-  padding: 20px;
-  border-radius: 16px;
-  background: #fff7ed;
-  border: 1px solid #fed7aa;
-  margin: 24px 0;
-}
-.contest-button {
-  display: inline-block;
-  padding: 10px 16px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 700;
-  background: #ea580c;
-  color: white !important;
-}
-.problem-card {
-  padding: 18px;
-  border: 1px solid #e5e7eb;
-  border-radius: 16px;
-  background: #ffffff;
-  margin: 18px 0;
-}
-.problem-card h3 {
-  margin-top: 0;
-}
-.problem-meta {
-  color: #4b5563;
-  margin-bottom: 12px;
-}
-details {
-  margin: 12px 0;
-  padding: 12px 14px;
-  border-radius: 10px;
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
-}
-summary {
-  cursor: pointer;
-  font-weight: 700;
-}
-</style>
-
-<div class="week-hero">
-
 # Tuần 1 - Làm quen với C++
 
 Tuần 1 giúp học sinh bắt đầu từ những thao tác đầu tiên trong C++: nhập xuất dữ liệu, khai báo biến và thực hiện các phép toán cơ bản.
 
 Đây là tuần học miễn phí để học sinh làm quen với cách học của khóa: **đọc đề → tự làm → mở hint khi bí → xem video hướng dẫn sau khi đã thử**.
 
-</div>
 
 ## 1. Tổng quan các bài trong tuần
 
 <div class="week-image">
-  <img src="/assets/images/cpp-week-01-overview.png" alt="Tổng quan các bài học tuần 1 - Làm quen với C++">
+  <img src="/assets/img/cpp-week-01-overview.png" alt="Tổng quan các bài học tuần 1 - Làm quen với C++">
 </div>
 
 <div class="week-note">
