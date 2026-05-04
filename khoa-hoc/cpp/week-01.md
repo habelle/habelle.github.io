@@ -202,6 +202,20 @@ In kết quả ra màn hình
 ---
 
 👉 🎥 Video chữa bài:
+<div style="margin: 20px 0; padding: 16px; border: 1px solid #e5e7eb; border-radius: 12px; background: #fafafa;">
+
+<b>🎥 Video chữa bài</b>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px; margin-top: 10px;">
+  <iframe 
+    src="https://www.youtube.com/embed/iRpgZNemMgM?rel=0"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
+</div>
+
+</div>
 
 [▶ Xem video chữa bài](VIDEO_A_CHUA_BAI_URL)
 
