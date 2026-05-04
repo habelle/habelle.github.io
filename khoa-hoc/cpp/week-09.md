@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tuần 9 - Hàm và xử lý ký tự
+title: Tuần 9 - Hàm tự viết
 permalink: /khoa-hoc/cpp/week-09/
 ---
 
@@ -79,15 +79,16 @@ text-align:center
 
 <div class="week-hero">
 
-# Tuần 9 - Hàm và xử lý ký tự
+# Tuần 9 - Hàm tự viết
 
-Tuần 9 giúp học sinh bắt đầu làm quen với:
+Tuần 9 giúp học sinh:
 
-👉 sử dụng các hàm có sẵn  
-👉 xử lý ký tự nâng cao  
-👉 viết chương trình gọn hơn, rõ ràng hơn  
+👉 tự xây dựng hàm riêng  
+👉 chia nhỏ bài toán  
+👉 tái sử dụng code  
+👉 viết chương trình rõ ràng, có cấu trúc  
 
-Đây là bước chuyển từ “viết code trực tiếp” sang “tổ chức code tốt hơn”.
+Đây là bước chuyển cực quan trọng từ “viết code từng bài” sang “tư duy lập trình bài bản”.
 
 </div>
 
@@ -124,57 +125,39 @@ Tuần 9 giúp học sinh bắt đầu làm quen với:
 
 ---
 
-## 2. Làm thử 2 bài đầu
+## 2. Làm thử bài đầu
 
 👉 Đây là phần demo miễn phí  
-👉 Hai bài đầu giúp học sinh làm quen với xử lý ký tự  
+👉 Bài này giúp bạn hiểu bản chất của hàm  
 
 ---
 
-### Bài A: Chuyển kí tự hoa, thường
+### Bài A: Hàm cộng hai số
 
 <details>
 <summary>💡 Hint</summary>
 
-Một ký tự có thể chuyển đổi giữa chữ hoa và chữ thường dựa trên mã ASCII.
+Viết một hàm có dạng:
 
-Ví dụ:
+- nhận 2 tham số a, b  
+- trả về kết quả a + b  
 
-- 'a' → 'A'
-- 'A' → 'a'
+Sau đó:
 
-Có thể làm theo 2 cách:
+- gọi hàm trong main  
+- in kết quả  
 
-1. Dùng điều kiện:
-   - nếu là chữ thường → trừ 32
-   - nếu là chữ hoa → cộng 32  
+👉 Điều quan trọng cần hiểu:
 
-2. Hoặc dùng hàm có sẵn nếu được phép.
+- input của hàm  
+- output của hàm  
+- cách gọi hàm  
 
 </details>
 
 ---
 
-### Bài B: Xâu kí tự thường
-
-<details>
-<summary>💡 Hint</summary>
-
-Duyệt từng ký tự trong xâu.
-
-Kiểm tra xem ký tự có phải chữ thường hay không.
-
-Có thể dựa vào khoảng:
-
-- 'a' → 'z'
-
-Nếu cần chuyển đổi, áp dụng quy tắc ASCII.
-
-</details>
-
----
-
-## 3. 🎥 Video chữa 2 bài đầu
+## 3. 🎥 Video chữa bài demo
 
 <div class="video-box">
 
@@ -187,8 +170,6 @@ allowfullscreen>
 
 </div>
 
-👉 Nên tự làm trước, sau đó xem video để hiểu cách xử lý ký tự.
-
 ---
 
 ## 4. Các bài còn lại (dành cho học viên)
@@ -197,15 +178,33 @@ allowfullscreen>
 
 <ul>
 
-<li><b>Bài C: Đếm kí tự ABCDEF</b> — đếm số ký tự thuộc một tập cho trước.</li>
+<li><b>Bài B: Hàm maxi</b> — viết hàm tìm số lớn hơn giữa hai số.</li>
 
-<li><b>Bài D: Đếm kí tự A...Z</b> — luyện đếm chữ cái in hoa.</li>
+<li><b>Bài C: Hàm tráo đổi hai số</b> — luyện swap, có thể dùng biến trung gian hoặc tham chiếu.</li>
 
-<li><b>Bài E: Max 2</b> — dùng hàm `max` để tìm giá trị lớn hơn.</li>
+<li><b>Bài D: Lập phương</b> — viết hàm tính a³.</li>
 
-<li><b>Bài F: ABS</b> — tính giá trị tuyệt đối, chú ý trường hợp âm.</li>
+<li><b>Bài E: Hàm kiểm tra số chẵn</b> — trả về true/false.</li>
 
-<li><b>Bài H: Ước chung lớn nhất</b> — sử dụng thuật toán Euclid hoặc hàm có sẵn.</li>
+<li><b>Bài F: Đường tròn</b> — tính diện tích, chu vi bằng hàm.</li>
+
+<li><b>Bài G: Hàm kiểm tra nguyên tố</b> — tách logic kiểm tra thành hàm riêng.</li>
+
+<li><b>Bài H: Hàm kiểm tra số hoàn hảo</b> — dùng lại tư duy tuần 5 nhưng đưa vào hàm.</li>
+
+<li><b>Bài I: Hàm tính giai thừa</b> — viết hàm tính n!.</li>
+
+<li><b>Bài J: Giải phương trình bậc nhất</b> — tách xử lý vào hàm.</li>
+
+<li><b>Bài L: BCNN</b> — dùng UCLN để xây dựng hàm BCNN.</li>
+
+<li><b>Bài M: Diện tích tam giác</b> — viết hàm tính toán.</li>
+
+<li><b>Bài N: Max diện tích</b> — gọi nhiều hàm và so sánh.</li>
+
+<li><b>Bài O: TIME</b> — bài tổng hợp logic + hàm.</li>
+
+<li><b>Bài P: Drawbox</b> — dùng hàm để in hình.</li>
 
 </ul>
 
@@ -215,14 +214,14 @@ allowfullscreen>
 
 ## 5. Vì sao tuần 9 quan trọng?
 
-Tuần này giúp học sinh:
+Tuần này là bước chuyển lớn về tư duy:
 
-- hiểu cách sử dụng hàm để viết code gọn hơn  
-- làm quen với thư viện và hàm có sẵn  
-- nâng cao kỹ năng xử lý ký tự  
-- bắt đầu có tư duy tổ chức chương trình  
+- học sinh biết chia nhỏ bài toán  
+- biết tổ chức code  
+- biết tái sử dụng hàm  
+- giảm lỗi khi viết chương trình dài  
 
-👉 Đây là bước đệm trước khi học viết hàm riêng và các thuật toán quan trọng hơn.
+👉 Đây là nền tảng bắt buộc trước khi học thuật toán nâng cao.
 
 ---
 
@@ -232,9 +231,9 @@ Tuần này giúp học sinh:
 
 Học tiếp để:
 
-- Viết code gọn và rõ ràng hơn  
-- Thành thạo xử lý ký tự  
-- Chuẩn bị cho phần hàm, sắp xếp và tìm kiếm  
+- Viết chương trình có cấu trúc rõ ràng  
+- Làm chủ tư duy lập trình  
+- Chuẩn bị cho sắp xếp và tìm kiếm  
 
 <br>
 
