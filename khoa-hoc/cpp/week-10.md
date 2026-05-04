@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tuần 10 - Hàm tự viết
+title: Tuần 10 - Xâu ký tự
 permalink: /khoa-hoc/cpp/week-10/
 ---
 
@@ -79,15 +79,16 @@ text-align:center
 
 <div class="week-hero">
 
-# Tuần 10 - Hàm tự viết
+# Tuần 10 - Xâu ký tự
 
-Tuần 10 giúp học sinh tiến thêm một bước quan trọng:
+Tuần 10 giúp học sinh làm chủ dữ liệu dạng xâu:
 
-👉 tự viết hàm riêng  
-👉 chia nhỏ bài toán  
-👉 tái sử dụng code  
+👉 duyệt từng ký tự  
+👉 đếm và phân loại ký tự  
+👉 so sánh xâu  
+👉 xử lý bài toán thực tế với chuỗi  
 
-Đây là nền tảng để viết chương trình gọn gàng và chuyên nghiệp hơn.
+Đây là phần rất quan trọng trong các bài thi lập trình.
 
 </div>
 
@@ -124,38 +125,58 @@ Tuần 10 giúp học sinh tiến thêm một bước quan trọng:
 
 ---
 
-## 2. Làm thử bài đầu
+## 2. Làm thử 2 bài đầu
 
 👉 Đây là phần demo miễn phí  
-👉 Bài này giúp bạn hiểu cách viết và sử dụng hàm  
+👉 Hai bài đầu giúp bạn làm quen với thao tác trên xâu  
 
 ---
 
-### Bài A: Hàm cộng hai số
+### Bài A: New string
 
 <details>
 <summary>💡 Hint</summary>
 
-Viết một hàm nhận 2 tham số a và b.
+Đọc xâu đầu vào.
 
-Trong hàm:
-- tính tổng a + b  
-- trả về kết quả  
+Duyệt từng ký tự bằng vòng lặp.
 
-Sau đó trong hàm main:
-- gọi hàm  
-- in kết quả  
+Tùy yêu cầu đề bài, bạn có thể:
 
-👉 Đây là bước đầu để hiểu:
+- tạo xâu mới  
+- hoặc in trực tiếp  
 
-- hàm nhận gì (input)
-- hàm trả gì (output)
+👉 Điều quan trọng:
+
+- biết truy cập ký tự: s[i]  
+- biết độ dài: s.length()  
 
 </details>
 
 ---
 
-## 3. 🎥 Video chữa bài demo
+### Bài B: String counts
+
+<details>
+<summary>💡 Hint</summary>
+
+Duyệt toàn bộ xâu.
+
+Dùng biến đếm để đếm ký tự thỏa mãn điều kiện.
+
+Ví dụ:
+
+- đếm chữ cái  
+- đếm số  
+- đếm ký tự đặc biệt  
+
+👉 Mỗi lần gặp ký tự hợp lệ → tăng biến đếm
+
+</details>
+
+---
+
+## 3. 🎥 Video chữa 2 bài đầu
 
 <div class="video-box">
 
@@ -168,8 +189,6 @@ allowfullscreen>
 
 </div>
 
-👉 Nên tự làm trước, sau đó xem video để hiểu cách tách hàm.
-
 ---
 
 ## 4. Các bài còn lại (dành cho học viên)
@@ -178,33 +197,21 @@ allowfullscreen>
 
 <ul>
 
-<li><b>Bài B: Hàm maxi</b> — viết hàm tìm giá trị lớn hơn giữa hai số.</li>
+<li><b>Bài C: Compare</b> — so sánh hai xâu theo thứ tự từ điển.</li>
 
-<li><b>Bài C: Hàm tráo đổi</b> — dùng tham chiếu hoặc biến phụ để hoán đổi.</li>
+<li><b>Bài D: Strings</b> — tổng hợp thao tác với xâu.</li>
 
-<li><b>Bài D: Lập phương</b> — viết hàm tính a³.</li>
+<li><b>Bài E: Count</b> — đếm ký tự theo nhiều điều kiện.</li>
 
-<li><b>Bài E: Kiểm tra số chẵn</b> — hàm trả về true/false.</li>
+<li><b>Bài F: Way Too Long Words</b> — rút gọn xâu theo quy tắc.</li>
 
-<li><b>Bài F: Đường tròn</b> — tách phần tính toán thành hàm.</li>
+<li><b>Bài G: Palindrome</b> — kiểm tra xâu đối xứng.</li>
 
-<li><b>Bài G: Kiểm tra nguyên tố</b> — viết hàm kiểm tra số nguyên tố.</li>
+<li><b>Bài H: COUNT LETTERS</b> — thống kê tần suất chữ cái.</li>
 
-<li><b>Bài H: Số hoàn hảo</b> — viết hàm kiểm tra điều kiện.</li>
+<li><b>Bài I: WORD COUNT</b> — đếm số từ trong câu.</li>
 
-<li><b>Bài I: Giai thừa</b> — viết hàm tính n!.</li>
-
-<li><b>Bài J: Giải phương trình bậc nhất</b> — tách logic vào hàm.</li>
-
-<li><b>Bài L: BCNN</b> — dùng UCLN để tính BCNN.</li>
-
-<li><b>Bài M: Diện tích tam giác</b> — viết hàm tính toán.</li>
-
-<li><b>Bài N: Max diện tích</b> — gọi nhiều hàm và so sánh.</li>
-
-<li><b>Bài O: Time</b> — bài tổng hợp logic và hàm.</li>
-
-<li><b>Bài P: Drawbox</b> — dùng hàm để in hình.</li>
+<li><b>Bài J: COUNT CHARS</b> — phân loại ký tự trong xâu.</li>
 
 </ul>
 
@@ -216,12 +223,12 @@ allowfullscreen>
 
 Tuần này giúp học sinh:
 
-- biết cách chia nhỏ bài toán  
-- viết code rõ ràng, dễ đọc  
-- tái sử dụng code  
-- giảm lỗi khi viết chương trình lớn  
+- làm chủ dữ liệu dạng xâu  
+- hiểu cách xử lý văn bản  
+- rèn kỹ năng duyệt và phân tích dữ liệu  
+- áp dụng lại vòng lặp và điều kiện  
 
-👉 Đây là bước chuyển từ “code bài nhỏ” sang “code có cấu trúc”.
+👉 Xâu ký tự là dạng bài xuất hiện rất nhiều trong thi lập trình.
 
 ---
 
@@ -231,9 +238,9 @@ Tuần này giúp học sinh:
 
 Học tiếp để:
 
-- Viết chương trình chuyên nghiệp hơn  
-- Giải bài phức tạp dễ hơn  
-- Chuẩn bị cho sắp xếp và tìm kiếm  
+- Thành thạo xử lý xâu  
+- Giải được các bài văn bản  
+- Chuẩn bị cho thuật toán nâng cao  
 
 <br>
 
