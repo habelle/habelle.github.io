@@ -4,179 +4,214 @@ title: Tuần 3 - Vòng lặp và xử lý dãy số
 permalink: /khoa-hoc/cpp/week-03/
 ---
 
+<style>
+.week-hero{
+padding:26px;
+border-radius:20px;
+background:linear-gradient(135deg,#eef6ff,#f8fbff);
+border:1px solid #dbeafe;
+margin-bottom:24px
+}
+.course-nav{
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa;
+margin:20px 0
+}
+.course-nav-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(90px,1fr));
+gap:8px
+}
+.course-nav a{
+display:block;
+padding:8px;
+border-radius:10px;
+text-align:center;
+text-decoration:none;
+border:1px solid #e5e7eb;
+background:white;
+font-weight:600
+}
+.course-nav a.current{
+background:#2563eb;
+color:white !important;
+border-color:#2563eb
+}
+.week-image{
+margin:20px 0;
+border-radius:16px;
+overflow:hidden;
+border:1px solid #e5e7eb
+}
+.week-image img{width:100%}
+.problem-card{
+padding:18px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:white;
+margin:16px 0
+}
+.locked-list{
+padding:18px;
+border-radius:16px;
+border:1px dashed #cbd5e1;
+background:#f8fafc;
+margin:18px 0
+}
+details{
+margin-top:10px;
+padding:10px;
+background:#f9fafb;
+border-radius:10px;
+border:1px solid #e5e7eb
+}
+.video-box{
+margin:24px 0;
+padding:16px;
+border:1px solid #e5e7eb;
+border-radius:16px;
+background:#fafafa
+}
+.cta-box{
+padding:28px;
+border-radius:20px;
+background:linear-gradient(135deg,#eff6ff,#fff7ed);
+border:1px solid #bfdbfe;
+margin-top:40px;
+text-align:center
+}
+</style>
+
+<div class="week-hero">
 
 # Tuần 3 - Vòng lặp và xử lý dãy số
 
-Tuần 3 giúp học sinh dùng vòng lặp để xử lý nhiều giá trị liên tiếp: in dãy, đếm, tính tổng, tìm giá trị lớn nhất.
+Tuần 3 là bước ngoặt quan trọng:
 
+👉 học vòng lặp  
+👉 xử lý nhiều dữ liệu  
+👉 bắt đầu “giải bài thật”  
+
+</div>
+
+---
 
 ## Điều hướng khóa học
 
 <div class="course-nav">
 <div class="course-nav-grid">
-<a href="/khoa-hoc/cpp/week-01/">Tuần 1</a><a href="/khoa-hoc/cpp/week-02/">Tuần 2</a><a class="current" href="/khoa-hoc/cpp/week-03/">Tuần 3</a><a href="/khoa-hoc/cpp/week-04/">Tuần 4</a><a href="/khoa-hoc/cpp/week-05/">Tuần 5</a><a href="/khoa-hoc/cpp/week-06/">Tuần 6</a><a href="/khoa-hoc/cpp/week-07/">Tuần 7</a><a href="/khoa-hoc/cpp/week-08/">Tuần 8</a><a href="/khoa-hoc/cpp/week-09/">Tuần 9</a><a href="/khoa-hoc/cpp/week-10/">Tuần 10</a><a href="/khoa-hoc/cpp/week-11/">Tuần 11</a><a href="/khoa-hoc/cpp/week-12/">Tuần 12</a>
-</div>
-</div>
 
+<a href="/khoa-hoc/cpp/week-01/">Tuần 1</a>
+<a href="/khoa-hoc/cpp/week-02/">Tuần 2</a>
+<a class="current" href="/khoa-hoc/cpp/week-03/">Tuần 3</a>
+<a href="/khoa-hoc/cpp/week-04/">Tuần 4</a>
+<a href="/khoa-hoc/cpp/week-05/">Tuần 5</a>
+<a href="/khoa-hoc/cpp/week-06/">Tuần 6</a>
+<a href="/khoa-hoc/cpp/week-07/">Tuần 7</a>
+<a href="/khoa-hoc/cpp/week-08/">Tuần 8</a>
+<a href="/khoa-hoc/cpp/week-09/">Tuần 9</a>
+<a href="/khoa-hoc/cpp/week-10/">Tuần 10</a>
+<a href="/khoa-hoc/cpp/week-11/">Tuần 11</a>
+<a href="/khoa-hoc/cpp/week-12/">Tuần 12</a>
+
+</div>
+</div>
 
 ---
 
 ## 1. Tổng quan các bài trong tuần
 
 <div class="week-image">
-  <img src="/assets/images/cpp-week-03-overview.png" alt="Tổng quan các bài học Tuần 3 - Vòng lặp và xử lý dãy số">
+<img src="/khoa-hoc/cpp/cpp-week-03-overview.png">
 </div>
 
 ---
 
-## 2. Làm thử 3 bài đầu
+## 2. Làm thử 2 bài đầu
 
-Ba bài đầu mở miễn phí để học sinh làm quen với vòng lặp cơ bản.
+👉 Đây là phần demo miễn phí  
 
-<div class="contest-box">
-
-### 🚀 Contest demo tuần 3
-
-<a class="button btn-contest" href="https://codeforces.com/group/PYFjMy37xA/contests">Vào contest demo</a>
-
-</div>
-
-<div class="week-note">
-
-👉 Hãy làm thử 3 bài A, B, C trước.  
-👉 Nếu thấy cách học phù hợp, bạn có thể đăng ký để mở khóa toàn bộ hint và video hướng dẫn của các bài còn lại.
-
-</div>
+👉 Hai bài này giúp bạn hiểu vòng lặp cơ bản  
 
 ---
-
-## 3. Ba bài mở miễn phí
-
-
-<div class="problem-card">
 
 ### Bài A: Từ 1 tới N
-
-<div class="problem-meta">Bài mở miễn phí trong phần demo tuần 3.</div>
-
-<details>
-<summary>💡 Hint</summary>
-
+<details><summary>💡 Hint</summary>
 Dùng vòng lặp từ 1 đến N.
-
 </details>
 
-</div>
-
-
-<div class="problem-card">
+---
 
 ### Bài B: Từ A tới B
-
-<div class="problem-meta">Bài mở miễn phí trong phần demo tuần 3.</div>
-
-<details>
-<summary>💡 Hint</summary>
-
+<details><summary>💡 Hint</summary>
 Dùng vòng lặp từ A đến B.
-
 </details>
-
-</div>
-
-
-<div class="problem-card">
-
-### Bài C: In ngược
-
-<div class="problem-meta">Bài mở miễn phí trong phần demo tuần 3.</div>
-
-<details>
-<summary>💡 Hint</summary>
-
-Dùng vòng lặp giảm dần từ N về 1.
-
-</details>
-
-</div>
-
 
 ---
 
-## 4. Video chữa 3 bài đầu
-
-Video dưới đây chữa 3 bài demo đầu tiên của tuần 3.
+## 3. 🎥 Video chữa 2 bài đầu
 
 <div class="video-box">
-  <div class="video-title">🎥 Video chữa bài tuần 3 - Bài A, B, C</div>
-  <div class="video-frame">
-    <iframe src="https://www.youtube.com/embed/VIDEO_TUAN_3_DEMO?rel=0" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
 
-<div class="week-note">
-
-👉 Nên tự làm trước rồi mới xem video chữa.  
-👉 Video giúp học sinh hiểu cách nghĩ, không chỉ là chép code.
+<iframe 
+width="100%" height="400"
+src="https://www.youtube.com/embed/VIDEO_TUAN_3?rel=0"
+frameborder="0"
+allowfullscreen>
+</iframe>
 
 </div>
 
 ---
 
-## 5. Các bài còn lại trong tuần 3
-
-Các bài dưới đây có sẵn **hint và hướng dẫn giải chi tiết** dành cho thành viên chính thức của khóa học.
+## 4. Các bài còn lại (dành cho học viên)
 
 <div class="locked-list">
 
 <ul>
-<li><strong>Bài D: Bảng nhân</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài E: In số chẵn trong đoạn</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài F: Đếm số chẵn trong dãy</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài G: Tổng dãy số</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài H: Tổng dãy số</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài I: Giai thừa</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài J: Liệt kê ước số</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài K: Phân loại số nguyên</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài L: Tổng số lẻ trong dãy</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài M: Số hoàn hảo</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài N: Kiểm tra tính nguyên tố bằng định nghĩa</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
-<li><strong>Bài O: Tìm số lớn nhất trong dãy</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+
+<li><b>Bài C: In ngược</b></li>
+<li><b>Bài D: Bảng nhân</b></li>
+<li><b>Bài E: In số chẵn trong đoạn</b></li>
+<li><b>Bài F: Đếm số chẵn trong dãy</b></li>
+<li><b>Bài G: Tổng dãy số</b></li>
+<li><b>Bài H: Tổng dãy số</b></li>
+<li><b>Bài I: Giai thừa</b></li>
+<li><b>Bài J: Liệt kê ước số</b></li>
+<li><b>Bài K: Phân loại số nguyên</b></li>
+<li><b>Bài L: Tổng số lẻ trong dãy</b></li>
+<li><b>Bài M: Số hoàn hảo</b></li>
+<li><b>Bài N: Kiểm tra số nguyên tố</b></li>
+<li><b>Bài O: Tìm số lớn nhất trong dãy</b></li>
+
 </ul>
 
 </div>
 
 ---
 
-## 6. Vì sao tuần này quan trọng?
-
-Tuần 3 giúp học sinh dùng vòng lặp để xử lý nhiều giá trị liên tiếp: in dãy, đếm, tính tổng, tìm giá trị lớn nhất.
-
-Các bài được sắp xếp theo hướng: bài đầu làm quen, bài tiếp theo củng cố, các bài cuối kết nối nhiều kỹ năng hơn.
-
----
-
 <div class="cta-box">
 
-## 🔓 Mở khóa toàn bộ khóa C++ cơ bản
+## 🔓 Mở khóa toàn bộ khóa học
 
-Khi đăng ký khóa học đầy đủ, học sinh sẽ được:
+Học tiếp để:
 
-<div class="cta-benefits">
-<div>✔ Truy cập toàn bộ lộ trình 12 tuần</div>
-<div>✔ Có tài khoản luyện tập trên OJ</div>
-<div>✔ Có hint cho từng bài</div>
-<div>✔ Có video chữa bài theo từng tuần</div>
-<div>✔ Có định hướng học rõ ràng từ cơ bản đến nền tảng thi HSG</div>
-</div>
+- Làm chủ vòng lặp  
+- Giải được bài toán thật  
+- Chuẩn bị cho mảng và thuật toán  
 
 <br>
 
-<a class="button btn-form" href="https://forms.gle/tFNgE7FiSq1LCSeC9">👉 Điền form đăng ký</a>
-<a class="button btn-zalo" href="https://zalo.me/0906090788">Liên hệ Zalo</a>
+<a href="https://forms.gle/tFNgE7FiSq1LCSeC9"
+style="padding:12px 20px;background:#2563eb;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+👉 Đăng ký khóa học
+</a>
 
-<p style="margin-top:18px;color:#6b7280">
-Zalo: 0906 090 788 • Facebook: http://facebook.com/hoang.ha.9134 • Email: ha.hoangthi@gmail.com
-</p>
+<a href="https://zalo.me/0906090788"
+style="padding:12px 20px;background:#16a34a;color:white;border-radius:10px;text-decoration:none;font-weight:700;">
+Liên hệ Zalo
+</a>
 
 </div>
