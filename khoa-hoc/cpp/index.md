@@ -152,7 +152,7 @@ Phù hợp với học sinh tự học có phụ huynh hoặc giáo viên theo s
 <li>Tài khoản luyện tập trên OJ</li>
 </ul>
 
-<a class="pricing-cta" href="#dang-ky">Đăng ký ngay</a>
+<a class="pricing-cta" href="https://zalo.me/0906090788">Đăng ký ngay</a>
 
 </div>
 
@@ -172,7 +172,7 @@ Phù hợp với học sinh cần được theo dõi tiến độ.
 <li>Hỗ trợ qua nhóm Zalo</li>
 </ul>
 
-<a class="pricing-cta" href="#dang-ky">Đăng ký ngay</a>
+<a class="pricing-cta" href="https://zalo.me/0906090788">Đăng ký ngay</a>
 
 </div>
 
