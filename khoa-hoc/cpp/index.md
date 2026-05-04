@@ -195,8 +195,8 @@ Phù hợp với học sinh cần được theo dõi tiến độ.
 
 Để đăng ký khóa học, phụ huynh/học sinh thực hiện 3 bước:
 
-1. Điền form đăng kí
-1. Nhắn tin cho giáo viên qua Zalo
+1. Điền form <a class="pricing-cta" href="https://forms.gle/tFNgE7FiSq1LCSeC9">Đăng ký ngay</a>
+1. Nhắn tin cho giáo viên qua Zalo **0906090788**
 2. Chuyển khoản học phí theo hướng dẫn
 3. Nhận tài khoản OJ và link học
 
