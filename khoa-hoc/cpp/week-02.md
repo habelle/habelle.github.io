@@ -1,295 +1,291 @@
 ---
 layout: page
-title: Tuần 2 - Bài tập rẽ nhánh và xử lý điều kiện
+title: Tuần 2 - Rẽ nhánh và xử lý điều kiện
 permalink: /khoa-hoc/cpp/week-02/
 ---
 
-
 <style>
-.course-shell {
-  display: grid;
-  grid-template-columns: 270px minmax(0, 1fr);
-  gap: 28px;
-  align-items: start;
+.week-hero {
+  padding: 24px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eef6ff, #f8fbff);
+  border: 1px solid #dbeafe;
+  margin-bottom: 24px;
 }
-.course-sidebar {
-  position: sticky;
-  top: 18px;
+.week-note {
+  padding: 14px 16px;
+  border-left: 5px solid #2563eb;
+  background: #eff6ff;
+  border-radius: 10px;
+  margin: 18px 0;
+}
+.week-image {
+  margin: 20px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+.week-image img {
+  width: 100%;
+  display: block;
+}
+.video-box {
+  margin: 22px 0;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fafafa;
+}
+.video-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.video-frame {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #000;
+}
+.video-frame iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.contest-box {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  margin: 24px 0;
+}
+.contest-button, .form-button, .zalo-button {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 6px 8px 6px 0;
+}
+.contest-button {
+  background: #ea580c;
+  color: white !important;
+}
+.form-button {
+  background: #2563eb;
+  color: white !important;
+}
+.zalo-button {
+  background: #16a34a;
+  color: white !important;
+}
+.problem-card {
+  padding: 18px;
   border: 1px solid #e5e7eb;
   border-radius: 16px;
   background: #ffffff;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-  overflow: hidden;
+  margin: 18px 0;
 }
-.course-sidebar-header {
-  padding: 16px 18px;
-  background: #111827;
-  color: #ffffff;
+.problem-card h3 {
+  margin-top: 0;
 }
-.course-sidebar-header .course-title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.35;
-}
-.course-sidebar-header .course-subtitle {
-  margin-top: 4px;
-  font-size: 13px;
-  color: #d1d5db;
-}
-.course-week-list {
-  margin: 0;
-  padding: 8px;
-  list-style: none;
-}
-.course-week-list li {
-  margin: 4px 0;
-}
-.course-week-list a {
-  display: block;
-  padding: 10px 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #374151;
-  font-size: 14px;
-  line-height: 1.35;
-}
-.course-week-list a:hover {
-  background: #f3f4f6;
-}
-.course-week-list a.active {
-  background: #2563eb;
-  color: #ffffff;
-  font-weight: 700;
-}
-.course-week-list .week-topic {
-  display: block;
-  font-size: 12px;
-  opacity: 0.85;
-  margin-top: 2px;
-}
-.course-main {
-  min-width: 0;
-}
-.course-topbar {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 12px 0 24px;
-  padding: 12px 14px;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  background: #f9fafb;
-}
-.course-topbar a {
-  text-decoration: none;
-  font-weight: 600;
-}
-.course-progress {
-  font-size: 14px;
+.problem-meta {
   color: #4b5563;
   margin-bottom: 12px;
 }
-@media (max-width: 860px) {
-  .course-shell {
-    display: block;
-  }
-  .course-sidebar {
-    position: relative;
-    top: auto;
-    margin-bottom: 22px;
-  }
-  .course-week-list {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+.locked-list {
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px dashed #cbd5e1;
+  background: #f8fafc;
+  margin: 18px 0;
+}
+.locked-list li {
+  margin-bottom: 8px;
+}
+details {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+}
+summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.cta-box {
+  padding: 24px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #eff6ff, #fff7ed);
+  border: 1px solid #bfdbfe;
+  margin: 28px 0;
 }
 </style>
 
+<div class="week-hero">
 
-<div class="course-shell">
-<aside class="course-sidebar">
-  <div class="course-sidebar-header">
-    <div class="course-title">Khóa C++ cơ bản</div>
-    <div class="course-subtitle">Lộ trình 8 tuần</div>
+# Tuần 2 - Rẽ nhánh và xử lý điều kiện
+
+Tuần 2 giúp học sinh biết cách dùng `if`, `else if`, `else` để chia bài toán thành nhiều trường hợp.
+
+Đây là bước chuyển quan trọng: từ các bài tính toán đơn giản sang các bài cần **đọc đề, xét điều kiện và quyết định hướng xử lý**.
+
+</div>
+
+## 1. Tổng quan các bài trong tuần
+
+<div class="week-image">
+  <img src="/khoa-hoc/cpp/cpp-week-02-overview.png" alt="Tổng quan các bài học tuần 2 - Rẽ nhánh và xử lý điều kiện">
+</div>
+
+
+---
+
+## 2. Làm thử 3 bài đầu trong contest demo
+
+Tuần 2 có một phần demo để học sinh làm thử 3 bài đầu trước khi đăng ký khóa học đầy đủ.
+
+<div class="contest-box">
+
+### 🚀 Contest demo tuần 2
+
+<a class="contest-button" href="https://codeforces.com/group/PYFjMy37xA/contests">Vào contest demo</a>
+
+</div>
+
+<div class="week-note">
+
+👉 Hãy làm thử 3 bài A, B, C trước.  
+Nếu học sinh thấy cách học phù hợp, có thể đăng ký để mở khóa toàn bộ hint và video hướng dẫn của các bài còn lại.
+
+</div>
+
+---
+
+## 3. Ba bài học mở miễn phí
+
+<div class="problem-card">
+
+### Bài A: Tìm max 2 số
+
+<div class="problem-meta">Kỹ năng chính: dùng `if else` để so sánh hai số.</div>
+
+<details>
+<summary>💡 Hint</summary>
+
+Nhập hai số `a`, `b`.  
+Nếu `a > b` thì in `a`, ngược lại in `b`.
+
+</details>
+
+</div>
+
+<div class="problem-card">
+
+### Bài B: Chẵn lẻ
+
+<div class="problem-meta">Kỹ năng chính: kiểm tra chia hết và rẽ nhánh.</div>
+
+<details>
+<summary>💡 Hint</summary>
+
+Một số là số chẵn nếu chia cho 2 dư 0.  
+Điều kiện cần kiểm tra là `n % 2 == 0`.
+
+</details>
+
+</div>
+
+<div class="problem-card">
+
+### Bài C: Âm dương
+
+<div class="problem-meta">Kỹ năng chính: xét nhiều trường hợp bằng `if`, `else if`, `else`.</div>
+
+<details>
+<summary>💡 Hint</summary>
+
+Cần xét 3 trường hợp:
+
+- số lớn hơn 0
+- số nhỏ hơn 0
+- số bằng 0
+
+</details>
+
+</div>
+
+---
+
+## 4. Video chữa 3 bài đầu
+
+Video dưới đây chữa 3 bài demo đầu tiên của tuần 2.
+
+<div class="video-box">
+  <div class="video-title">🎥 Video chữa bài tuần 2 - Bài A, B, C</div>
+
+  <div class="video-frame">
+    <iframe 
+      src="https://www.youtube.com/embed/VIDEO_TUAN_2_DEMO?rel=0"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
   </div>
-  <ul class="course-week-list">
-    <li><a href="/khoa-hoc/cpp/week-01/">Tuần 1<span class="week-topic">Bài tập cơ bản</span></a></li>
-<li><a class="active" href="/khoa-hoc/cpp/week-02/">Tuần 2<span class="week-topic">Rẽ nhánh và điều kiện</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-03/">Tuần 3<span class="week-topic">Vòng lặp phần 1</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-04/">Tuần 4<span class="week-topic">Xử lý chữ số</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-05/">Tuần 5<span class="week-topic">Vòng lặp lồng nhau</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-06/">Tuần 6<span class="week-topic">Mảng một chiều</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-07/">Tuần 7<span class="week-topic">Mảng hai chiều</span></a></li>
-<li><a href="/khoa-hoc/cpp/week-08/">Tuần 8<span class="week-topic">Xâu ký tự</span></a></li>
-  </ul>
-</aside>
+</div>
 
-<main class="course-main" markdown="1">
+<div class="week-note">
 
+👉 Nên tự làm 3 bài trước rồi mới xem video chữa.  
+Video này giúp học sinh hiểu cách đọc điều kiện, viết nhánh và kiểm tra kết quả.
 
-<div class="course-progress">Tiến độ: Tuần 2 / 8</div>
-
-# Tuần 2 - Bài tập rẽ nhánh và xử lý điều kiện
-
-👉 Hãy thử làm bài trước khi mở hint hoặc xem video chữa bài.
+</div>
 
 ---
 
-## Bài A: Tìm max 2 số
+## 5. Các bài còn lại trong tuần 2
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/A)
+Các bài dưới đây có sẵn **hint và hướng dẫn giải chi tiết** dành cho thành viên chính thức của khóa học.
 
-<details>
-<summary>Hint</summary>
+<div class="locked-list">
 
-So sánh hai số và in ra số lớn hơn.
+<ul>
+<li><strong>Bài D: Giờ giấc</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài E: Số lớn nhất 3</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài F: Xếp loại học lực</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài G: Phương trình bậc hai</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài H: Đọc ngày trong tuần</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài I: Đọc số</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+<li><strong>Bài J: Đọc tên tháng</strong> — có hint và hướng dẫn giải cho học viên chính thức.</li>
+</ul>
 
-</details>
-
-[🎥 Video chữa bài](VIDEO_A_CHUA_BAI_URL)
-
----
-
-## Bài B: Chẵn lẻ
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/B)
-
-<details>
-<summary>Hint</summary>
-
-Một số chẵn nếu chia cho 2 dư 0.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_B_CHUA_BAI_URL)
+</div>
 
 ---
 
-## Bài C: Âm dương
+<div class="cta-box">
 
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/C)
+## 🔓 Mở khóa toàn bộ khóa C++ cơ bản
 
-<details>
-<summary>Hint</summary>
+Khi đăng ký khóa học đầy đủ, học sinh sẽ được:
 
-Kiểm tra số lớn hơn, nhỏ hơn hay bằng 0.
+- Truy cập toàn bộ lộ trình 8 tuần
+- Có tài khoản luyện tập trên OJ
+- Có hint cho từng bài
+- Có video chữa bài theo từng tuần
+- Có định hướng học rõ ràng từ cơ bản đến nền tảng thi HSG
 
-</details>
+<a class="form-button" href="https://forms.gle/tFNgE7FiSq1LCSeC9">👉 Điền form đăng ký</a>
+<a class="zalo-button" href="https://zalo.me/0906090788">Liên hệ Zalo</a>
 
-[🎥 Video chữa bài](VIDEO_C_CHUA_BAI_URL)
+Hoặc liên hệ trực tiếp:
 
----
+- Zalo: 0906 090 788  
+- Facebook: http://facebook.com/hoang.ha.9134  
+- Email: ha.hoangthi@gmail.com  
 
-## Bài D: Giờ giấc
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/D)
-
-<details>
-<summary>Hint</summary>
-
-Chia thành các khoảng thời gian và dùng if else để xử lý.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_D_CHUA_BAI_URL)
-
----
-
-## Bài E: Số lớn nhất 3
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/E)
-
-<details>
-<summary>Hint</summary>
-
-So sánh từng cặp hoặc dùng biến trung gian để tìm max.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_E_CHUA_BAI_URL)
-
----
-
-## Bài F: Xếp loại học lực
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/F)
-
-<details>
-<summary>Hint</summary>
-
-Dùng nhiều điều kiện if else theo khoảng điểm.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_F_CHUA_BAI_URL)
-
----
-
-## Bài G: Phương trình bậc hai
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/G)
-
-<details>
-<summary>Hint</summary>
-
-Tính delta và xét các trường hợp:
-- delta < 0
-- delta = 0
-- delta > 0
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_G_CHUA_BAI_URL)
-
----
-
-## Bài H: Đọc ngày trong tuần
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/H)
-
-<details>
-<summary>Hint</summary>
-
-Dùng if else hoặc switch để ánh xạ số sang tên ngày.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_H_CHUA_BAI_URL)
-
----
-
-## Bài I: Đọc số
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/I)
-
-<details>
-<summary>Hint</summary>
-
-Phân tích từng chữ số và chuyển thành chữ.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_I_CHUA_BAI_URL)
-
----
-
-## Bài J: Đọc tên tháng
-
-[🚀 Làm bài](https://codeforces.com/group/EJ0k8l1752/contest/294730/problem/J)
-
-<details>
-<summary>Hint</summary>
-
-Dùng if else hoặc switch để chuyển số tháng thành tên.
-
-</details>
-
-[🎥 Video chữa bài](VIDEO_J_CHUA_BAI_URL)
-
----
-
-
-<div class="course-progress">Tiến độ: Tuần 2 / 8</div>
-
-</main>
 </div>
