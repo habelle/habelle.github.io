@@ -267,25 +267,72 @@ Các bài dưới đây có sẵn **hint và hướng dẫn giải chi tiết** 
 
 ---
 
-<div class="cta-box">
+<div style="
+padding: 28px;
+border-radius: 20px;
+background: linear-gradient(135deg, #eff6ff, #fff7ed);
+border: 1px solid #bfdbfe;
+margin-top: 40px;
+text-align: center;
+">
 
-## 🔓 Mở khóa toàn bộ khóa C++ cơ bản
+<h2 style="margin-top: 0;">
+🔓 Mở khóa toàn bộ khóa C++
+</h2>
 
-Khi đăng ký khóa học đầy đủ, học sinh sẽ được:
+<p style="max-width: 650px; margin: 10px auto; color: #374151;">
+Khi đăng ký, học sinh sẽ được:
+</p>
 
-- Truy cập toàn bộ lộ trình 8 tuần
-- Có tài khoản luyện tập trên OJ
-- Có hint cho từng bài
-- Có video chữa bài theo từng tuần
-- Có định hướng học rõ ràng từ cơ bản đến nền tảng thi HSG
+<div style="
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 10px;
+margin-top: 15px;
+text-align: left;
+">
 
-<a class="form-button" href="https://forms.gle/tFNgE7FiSq1LCSeC9">👉 Điền form đăng ký</a>
-<a class="zalo-button" href="https://zalo.me/0906090788">Liên hệ Zalo</a>
+<div>✔ Truy cập toàn bộ lộ trình 8 tuần</div>
+<div>✔ Có tài khoản luyện tập trên OJ</div>
+<div>✔ Có hint cho từng bài</div>
+<div>✔ Video chữa bài đầy đủ</div>
+<div>✔ Định hướng học rõ ràng</div>
 
-Hoặc liên hệ trực tiếp:
+</div>
 
-- Zalo: 0906 090 788  
-- Facebook: http://facebook.com/hoang.ha.9134  
-- Email: ha.hoangthi@gmail.com  
+<div style="margin-top: 25px;">
+
+<a href="https://forms.gle/tFNgE7FiSq1LCSeC9"
+   style="
+   display: inline-block;
+   padding: 12px 20px;
+   background: #2563eb;
+   color: white;
+   border-radius: 10px;
+   text-decoration: none;
+   font-weight: 700;
+   margin-right: 10px;
+   ">
+   👉 Điền form đăng ký
+</a>
+
+<a href="https://zalo.me/0906090788"
+   style="
+   display: inline-block;
+   padding: 12px 20px;
+   background: #16a34a;
+   color: white;
+   border-radius: 10px;
+   text-decoration: none;
+   font-weight: 700;
+   ">
+   💬 Liên hệ Zalo
+</a>
+
+</div>
+
+<p style="margin-top: 20px; color: #6b7280; font-size: 0.95rem;">
+Zalo: 0906 090 788 • Facebook: hoang.ha.9134 • Email: ha.hoangthi@gmail.com
+</p>
 
 </div>
