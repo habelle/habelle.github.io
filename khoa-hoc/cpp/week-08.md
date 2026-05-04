@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tuần 8 - Xử lý xâu ký tự
+title: Tuần 8 - Một số hàm có sẵn trong thư viện chuẩn
 permalink: /khoa-hoc/cpp/week-08/
 ---
 
@@ -79,17 +79,16 @@ text-align:center
 
 <div class="week-hero">
 
-# Tuần 8 - Xử lý xâu ký tự
+# Tuần 8 - Một số hàm có sẵn trong thư viện chuẩn
 
-Tuần 8 giúp học sinh làm quen với dữ liệu dạng văn bản:
+Tuần 8 giúp học sinh làm quen với việc sử dụng các hàm có sẵn trong C++:
 
-👉 duyệt từng ký tự trong xâu  
-👉 đếm ký tự  
-👉 so sánh xâu  
-👉 kiểm tra xâu đối xứng  
-👉 xử lý từ và ký tự theo điều kiện  
+👉 chuyển chữ hoa, chữ thường  
+👉 kiểm tra và đếm ký tự  
+👉 dùng hàm `max`, `abs`  
+👉 làm quen với ước chung lớn nhất  
 
-Đây là bước chuyển quan trọng từ xử lý số, mảng sang xử lý dữ liệu văn bản.
+Đây là bước giúp học sinh viết code ngắn gọn hơn, biết tận dụng công cụ có sẵn thay vì tự làm mọi thứ từ đầu.
 
 </div>
 
@@ -129,47 +128,51 @@ Tuần 8 giúp học sinh làm quen với dữ liệu dạng văn bản:
 ## 2. Làm thử 2 bài đầu
 
 👉 Đây là phần demo miễn phí  
-👉 Hai bài đầu giúp học sinh làm quen với thao tác duyệt và xử lý xâu ký tự  
+👉 Hai bài đầu giúp học sinh làm quen với các hàm xử lý ký tự  
 
 ---
 
-### Bài A: New string
+### Bài A: Hàm chuyển kí tự hoa, thường
 
 <details>
 <summary>💡 Hint</summary>
 
-Đọc xâu đầu vào.
+Bài này thường dùng các hàm xử lý ký tự trong thư viện chuẩn.
 
-Sau đó duyệt từng ký tự trong xâu bằng vòng lặp.
+Một số hàm cần nhớ:
 
-Với mỗi ký tự, xử lý theo đúng yêu cầu đề bài.
+- `toupper(c)`: chuyển ký tự `c` thành chữ hoa
+- `tolower(c)`: chuyển ký tự `c` thành chữ thường
 
-Khi làm bài xử lý xâu, cần chú ý:
+Khi dùng các hàm này, em cần chú ý:
 
-- độ dài xâu
-- vị trí ký tự
-- ký tự đầu tiên và ký tự cuối cùng
-- kết quả cần tạo ra là xâu mới hay chỉ in trực tiếp
+- nhập đúng ký tự
+- xử lý kết quả trả về
+- in đúng định dạng đề bài yêu cầu
 
 </details>
 
 ---
 
-### Bài B: String counts
+### Bài B: Xâu kí tự thường
 
 <details>
 <summary>💡 Hint</summary>
 
-Duyệt toàn bộ xâu từ trái sang phải.
+Duyệt từng ký tự trong xâu.
 
-Dùng biến đếm để đếm số ký tự thỏa mãn điều kiện.
+Với mỗi ký tự, có thể dùng:
 
-Nếu đề yêu cầu đếm một loại ký tự cụ thể, hãy kiểm tra từng ký tự khi duyệt.
+- `tolower(c)` để chuyển ký tự đó thành chữ thường
 
-Ví dụ tư duy chung:
+Nếu đề yêu cầu cả xâu đều thành chữ thường, hãy xử lý từng ký tự một.
 
-- gặp ký tự cần đếm → tăng biến đếm
-- không gặp → bỏ qua
+Mẫu tư duy:
+
+- đọc xâu
+- duyệt từng vị trí
+- chuyển ký tự về chữ thường
+- in xâu sau khi xử lý
 
 </details>
 
@@ -188,7 +191,7 @@ allowfullscreen>
 
 </div>
 
-👉 Nên tự làm trước, sau đó xem video để hiểu cách duyệt xâu và xử lý từng ký tự.
+👉 Nên tự làm trước, sau đó xem video để hiểu cách sử dụng hàm có sẵn trong thư viện chuẩn.
 
 ---
 
@@ -198,21 +201,15 @@ allowfullscreen>
 
 <ul>
 
-<li><b>Bài C: Compare</b> — luyện so sánh hai xâu, hiểu thứ tự từ điển và cách so sánh ký tự.</li>
+<li><b>Bài C: Đếm kí tự ABCDEF</b> — luyện đếm các ký tự thuộc một nhóm ký tự cho trước.</li>
 
-<li><b>Bài D: Strings</b> — tổng hợp các thao tác cơ bản trên xâu như nối, duyệt, truy cập ký tự.</li>
+<li><b>Bài D: Đếm kí tự A...Z</b> — luyện kiểm tra và đếm chữ cái in hoa.</li>
 
-<li><b>Bài E: Count</b> — luyện đếm ký tự thỏa mãn điều kiện trong xâu.</li>
+<li><b>Bài E: Max 2 - Sử dụng hàm max</b> — dùng hàm `max` để tìm số lớn hơn trong hai số.</li>
 
-<li><b>Bài F: Way Too Long Words</b> — xử lý xâu theo quy tắc rút gọn, bài kinh điển cho người mới học.</li>
+<li><b>Bài F: ABS -- Trị tuyệt đối</b> — sử dụng hàm trị tuyệt đối để xử lý số âm, số dương.</li>
 
-<li><b>Bài G: Palindrome</b> — kiểm tra xâu đối xứng bằng cách so sánh hai đầu.</li>
-
-<li><b>Bài H: COUNT LETTERS</b> — dùng mảng đếm để thống kê số lần xuất hiện của chữ cái.</li>
-
-<li><b>Bài I: WORD COUNT</b> — đếm số từ trong một dòng văn bản, chú ý khoảng trắng và ký tự phân tách.</li>
-
-<li><b>Bài J: COUNT CHARS</b> — đếm ký tự theo yêu cầu, rèn kỹ năng duyệt và phân loại ký tự.</li>
+<li><b>Bài H: Ước chung lớn nhất</b> — làm quen với cách tìm UCLN, có thể dùng thuật toán hoặc hàm hỗ trợ tùy môi trường học.</li>
 
 </ul>
 
@@ -224,15 +221,13 @@ allowfullscreen>
 
 Tuần này giúp học sinh:
 
-- làm quen với dữ liệu dạng xâu ký tự
-- biết cách duyệt từng ký tự
-- biết cách đếm, so sánh và kiểm tra điều kiện trên xâu
-- sử dụng lại kiến thức vòng lặp, điều kiện và mảng
-- chuẩn bị cho các bài xử lý văn bản nâng cao hơn
+- biết tận dụng thư viện chuẩn của C++
+- viết code ngắn gọn và rõ ràng hơn
+- hiểu rằng không phải bài nào cũng cần tự xây lại từ đầu
+- làm quen với xử lý ký tự, trị tuyệt đối, max và UCLN
+- chuẩn bị tốt cho phần viết hàm riêng ở các tuần sau
 
-Xử lý xâu là phần rất thường gặp trong các bài thi lập trình cơ bản và học sinh giỏi cấp 2.
-
-Nếu học sinh nắm chắc tuần này, các em sẽ tự tin hơn khi gặp các bài liên quan đến ký tự, từ, câu, chuỗi đối xứng hoặc thống kê tần suất.
+Đây là bước chuyển từ “biết viết code chạy được” sang “biết dùng công cụ có sẵn để viết code hiệu quả hơn”.
 
 ---
 
@@ -242,9 +237,9 @@ Nếu học sinh nắm chắc tuần này, các em sẽ tự tin hơn khi gặp 
 
 Học tiếp để:
 
-- Thành thạo xử lý xâu ký tự  
-- Biết cách phân tích bài toán văn bản  
-- Chuẩn bị tốt cho phần hàm, sắp xếp, tìm kiếm và đệ quy  
+- Thành thạo các hàm có sẵn trong C++  
+- Biết cách dùng thư viện chuẩn đúng lúc  
+- Chuẩn bị cho phần hàm tự viết và thuật toán cơ bản  
 
 <br>
 
