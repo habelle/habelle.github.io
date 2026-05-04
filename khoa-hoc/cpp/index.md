@@ -6,9 +6,21 @@ permalink: /khoa-hoc/cpp/
 
 # Khóa C++ cơ bản cho học sinh THCS
 
-**Học lập trình C++ từ nền tảng, luyện bài trên Online Judge, có hint và video chữa bài sau mỗi bài tập.**
+**Không chỉ là một khóa học lập trình — đây là một lộ trình được thiết kế để học sinh có thể tự học, tự tiến bộ và dần yêu thích việc giải bài toán.**
 
-Khóa học phù hợp với học sinh mới bắt đầu học lập trình, học sinh lớp 6–9 muốn xây nền để học Tin học, thi học sinh giỏi cấp trường, cấp huyện, cấp tỉnh hoặc thi vào lớp chuyên Tin.
+Khóa học giúp học sinh bắt đầu từ những kiến thức cơ bản nhất của C++, sau đó từng bước xây dựng tư duy thông qua hệ thống bài tập được sắp xếp theo trình tự sư phạm: bài trước hỗ trợ bài sau, từ đơn giản đến nâng cao, từ kỹ năng nhỏ đến bài tổng hợp.
+
+Mỗi bài học không chỉ có bài tập, mà còn có:
+- hệ thống hint gợi mở để học sinh không bị “bí hoàn toàn”
+- video chữa bài giúp hiểu cách nghĩ đúng
+- môi trường luyện tập trên Online Judge để tự kiểm tra kết quả
+
+Quan trọng hơn, khóa học được thiết kế để:
+- giúp học sinh **tự học một cách có định hướng**
+- rèn thói quen **đọc đề, thử sai, và sửa lỗi**
+- tạo cảm giác **làm được bài → hứng thú học tiếp**
+
+Phù hợp với học sinh lớp 6–9 mới bắt đầu học lập trình hoặc cần xây nền tảng vững chắc để hướng tới thi học sinh giỏi và các kỳ thi vào lớp chuyên Tin.
 
 ---
 
